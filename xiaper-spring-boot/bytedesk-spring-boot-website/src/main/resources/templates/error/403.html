@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+
+    <title>403 - <span th:utext="#{title}" th:remove="tag"></span> · <span th:utext="#{slogan}" th:remove="tag"></span> </title>
+
+    <div th:replace="fragments/zd/header :: header-meta"/>
+
+    <link href="/css/zd/screen_i18n.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <link href="/css/zd/p-home.min.css" media="all" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<div th:replace="fragments/zd/header :: header"/>
+
+<div id="app" style="text-align: center;">
+
+    <main class="container" style="margin-top: 100px; margin-bottom: 100px; min-height: 1000px;">
+
+        <h1>筹建装修中，尽快与您见面</h1>
+
+    </main><!-- /.container -->
+
+</div>
+
+<div th:replace="fragments/zd/footer :: footer-div"/>
+
+<div th:replace="fragments/zd/footer :: footer-js"/>
+
+<!--客服上线代码 -->
+<div th:replace="fragments/footer :: footer-chat"/>
+
+<!-- FIXME: An error happened during template parsing (template: "class path resource [templates/error/403.html]")-->
+
+</body>
+</html>
+
+

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div th:fragment="footer-div">
+
+        <footer class="clear">
+            <div class="sitemap mega-footer SL_swap" id="smartling-mega-footer">
+                <div class="col-960">
+                    <nav class="primary-menu-list-wrap">
+                        <ul id="menu-footer-navigation" class="primary-menu-list">
+                            <li id="smartling-nav-footer-product" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="/support/">所有产品</a>
+                                <div class="primary-menu-list-dropdown"><span class="pin"></span>
+                                    <ul>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/app/" target="_blank">手机APP</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/web/" target="_blank">网站</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/mp/" target="_blank">公众号</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/mini/" target="_blank">小程序</a></li>
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/whats-new/">微博</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/whats-new/">淘宝</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/whats-new/">京东</a></li>-->
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="smartling-nav-footer-features" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="/">主要功能</a>
+                                <div class="primary-menu-list-dropdown"><span class="pin"></span>
+                                    <ul>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/chat/" target="_blank">人工客服</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/robot/" target="_blank">智能客服</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/support/" target="_blank">帮助中心</a></li>
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">意见反馈</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">工单系统</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">呼叫中心</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">内部协同</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">客户管理CRM</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">调查问卷</a></li>-->
+                                        <!--<li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/product/tech-specs/">云通讯</a></li>-->
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="smartling-nav-footer-resources" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="/resources/" target="_blank">资源</a>
+                                <div class="primary-menu-list-dropdown"><span class="pin"></span>
+                                    <ul>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/support/category?uid=201808221551193&cid=201808221712491" target="_blank">开发文档</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/customers/" target="_blank">客户案例</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="smartling-nav-footer-company" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="/about/" target="_blank">公司</a>
+                                <div class="primary-menu-list-dropdown"><span class="pin"></span>
+                                    <ul>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/about/" target="_blank">关于</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/job/" target="_blank">招聘</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/sitemap/" target="_blank">Sitemap</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li id="smartling-nav-footer-favorites" class="SL_swap menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children list-parent "><a href="/" target="_blank">推荐产品</a>
+                                <div class="primary-menu-list-dropdown"><span class="pin"></span>
+                                    <ul>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/enterprise/" target="_blank">集团版</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom no_children "><a href="/startups/" target="_blank">创业版</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div style="clear: both;"></div>
+                    </nav>
+                    <div id="newsletter-form" class="newsletter-sub">
+                        <h3>加入订阅</h3>
+                        <div class="flex-container">
+                            <div class="form-wrapper">
+                                <p>订阅我们的动态新闻.</p>
+                                <form id="newsletter" class="js-newsletter-form-footer form-gray" method="post" name="eloquaform">
+                                    <label class="success"><span></span>欢迎加入!</label>
+                                    <ul>
+                                        <li class="error">
+                                            <div class="depth-wrap">
+                                                <input type="text" class="email required js-field js-footer-newsletter-email" id="owner[email]" name="owner[email]" autocomplete="email" placeholder="请输入邮箱地址" tabindex="0" />
+                                                <a class="register js-footer-newsletter-subscribe">订阅</a>
+                                            </div>
+                                            <label style="display: block; opacity: 1;"><span></span>请输入邮箱地址</label>
+                                        </li>
+                                        <li class="opt-in-field js-opt-in-field">
+                                            <label class="checkbox-container">
+                                                <input type="checkbox" class="js-opt-in-checkbox js-field" id="optinToMarketing" name="optinToMarketing" value="TRUE">
+                                                <span class="custom-check"></span>
+                                                Please also send me occasional emails about Bytedesk products and services. (You can unsubscribe at any time.) </label>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="l-island l-island-right social clear SL_swap" id="sl-footer-social">
+                                <span itemscope itemtype="https://schema.org/Organization">
+                                    <link itemprop="url" href="https://www.bytedesk.com">
+                                    <!--TODO: 添加公众号、小程序、微博、Facebook 等社交媒体-->
+                                    <!--<a itemprop="sameAs" href="//plus.google.com/+Bytedesk" class="notranslate ent-text ico-gplus" rel="publisher">&#59639;</a>-->
+                                    <!--<a itemprop="sameAs" href="//www.facebook.com/Bytedesk" class="notranslate ent-text ico-facebook">&#59636;</a>-->
+                                    <!--<a itemprop="sameAs" href="//www.twitter.com/Bytedesk" class="notranslate ent-text ico-twitter">&#59634;</a>-->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="legal clear">
+                <!--FIXME: Caused by: org.attoparser.ParseException: An error happened during template rendering (template: "fragments/zd/footer" - line 114, col 17)-->
+                <div class="col-960 SL_swap" id="sl-footer-policy">
+                    <a href="https://www.bytedesk.com/">使用条款</a>
+                    <a href="https://www.bytedesk.com/">隐私策略</a>
+                    <a href="https://www.bytedesk.com/">Cookie 策略</a>
+                    <a href="#">Tel:010-59065424</a>
+                    <a href="#">技术支持 QQ 2群:474794719</a>
+                    <a href="https://www.bytedesk.com/">北京微语天下科技有限公司&copy;Bytedesk 2013~2018</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div th:fragment="footer-js">
+
+        <script src="/js/zd/plugins.min.js"></script>
+        <script src="/js/zd/geoUtils.min.js"></script>
+        <script src="/js/zd/webUtils.min.js"></script>
+
+        <script src="/js/zd/tabs.min.js"></script>
+        <script src="/js/zd/p-home.min.js"></script>
+
+        <!--<script src="/js/zd/cookieUtils.min.js"></script>-->
+        <!--<script src="https://web-assets.zendesk.com/js/formUtils.min.1e649b5c.js"></script>-->
+
+    </div>
+
+    <div th:fragment="footer-js-support">
+
+        <script src="/js/zd/plugins.min.js"></script>
+        <script src="/js/zd/geoUtils.min.js"></script>
+        <script src="/js/zd/webUtils.min.js"></script>
+        <script src="/js/zd/p-support-overview-b.min.js"></script>
+
+    </div>
+
+     <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1274214235'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1274214235%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+</body>
+</html>

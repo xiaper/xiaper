@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+
+<head>
+    <title>萝卜丝 | 智能云客服 &amp; 工单支持系统</title>
+
+    <div th:replace="fragments/zd/header :: header-meta"/>
+
+    <link href="/css/zd/screen_i18n.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="/css/zd/p-home.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <!--测试用，上线之时应该注释掉-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.4.0/theme-chalk/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_761687_dmeuhcj8d3i.css"/>
+
+    <!--测试用，上线之时应该注释掉 fragment/float.html对应css-->
+    <link href="/css/float.css" media="all" rel="stylesheet" type="text/css">
+
+    <!--测试用，上线之时应该注释掉 fragment/help.html对应css-->
+    <!--<link href="/css/help.css" media="all" rel="stylesheet" type="text/css">-->
+
+</head>
+
+<body>
+
+    <div th:replace="fragments/zd/header :: header"/>
+
+    <article class="home">
+
+        <section class="hero use-padding">
+            <div class="container">
+                <div class="flex-content">
+                    <div class="copy">
+                        <h1>携手 萝卜丝 构建极致客户体验</h1>
+                        <p>我们致力于提供稳定、可扩展、定制化的以客户服务为中心的企业协作平台</p>
+                        <div class="cta-section">
+                            <!--<a href="/demo/" class="cta">View demo</a>-->
+                            <a href="/admin#/register" class="cta secondary" target="_blank">免费注册</a>
+                        </div>
+                    </div>
+                    <img src="/img/zd/hero.svg" alt="The best customer experiences are built with Bytedesk">
+                </div>
+            </div>
+        </section>
+
+        <section class="connect">
+            <div class="container">
+                <div class="intro">
+                    <h2>全渠道接入</h2>
+                    <p>登录一个后台，客服便可以同时接待来自多个渠道的访客：网站、手机APP、公众号、小程序、微博、邮件等.</p>
+                </div>
+                <div class="js-tabs-module tabs-module vertical flex-content">
+                    <div class="content-container">
+                        <div class="align-top" data-tab-content="support">
+                            <video class="js-localized-video" preload="metadata" muted="">
+                                <source class="retina" data-src="/assets/video/support-2x-zh-tw.webm" type="video/webm"></source>
+                                <source class="retina" data-src="/assets/video/support-2x-zh-tw.mp4" type="video/mp4"></source>
+                                <source class="default" data-src="/assets/video/support-zh-tw.webm" type="video/webm"></source>
+                                <source class="default" data-src="/assets/video/support-zh-tw.mp4" type="video/mp4"></source>
+                            </video>
+                        </div>
+                        <div class="align-top" data-tab-content="guide">
+                            <video class="js-localized-video" preload="none" muted="">
+                                <source class="retina" data-src="/assets/video/guide-2x-zh-tw.webm" type="video/webm"></source>
+                                <source class="retina" data-src="/assets/video/guide-2x-zh-tw.mp4" type="video/mp4"></source>
+                                <source class="default" data-src="/assets/video/guide-zh-tw.webm" type="video/webm"></source>
+                                <source class="default" data-src="/assets/video/guide-zh-tw.mp4" type="video/mp4"></source>
+                            </video>
+                        </div>
+                        <div class="align-top" data-tab-content="chat">
+                            <video class="js-localized-video" preload="none" muted="">
+                                <source class="retina" data-src="/assets/video/chat-2x-zh-tw.webm" type="video/webm"></source>
+                                <source class="retina" data-src="/assets/video/chat-2x-zh-tw.mp4" type="video/mp4"></source>
+                                <source class="default" data-src="/assets/video/chat-zh-tw.webm" type="video/webm"></source>
+                                <source class="default" data-src="/assets/video/chat-zh-tw.mp4" type="video/mp4"></source>
+                            </video>
+                        </div>
+                        <div class="align-top" data-tab-content="talk">
+                            <video class="js-localized-video" preload="none" muted="">
+                                <source class="retina" data-src="/assets/video/talk-2x-zh-tw.webm" type="video/webm"></source>
+                                <source class="retina" data-src="/assets/video/talk-2x-zh-tw.mp4" type="video/mp4"></source>
+                                <source class="default" data-src="/assets/video/talk-zh-tw.webm" type="video/webm"></source>
+                                <source class="default" data-src="/assets/video/talk-zh-tw.mp4" type="video/mp4"></source>
+                            </video>
+                        </div>
+                    </div>
+                    <div class="tabs-container">
+                        <div class="tab tab-1" data-tab="chat">
+                            <div class="tab-inner">
+                                <h4 class="tab-trigger with-icon">
+                                    <img class="icon lazyload no-src" data-src="/img/zd/product-icon-chat.svg" alt="Bytedesk Chat logo">
+                                    <span><span class="eyebrow">在线客服</span>人工客服&智能机器人双剑合璧</span>
+                                </h4>
+                                <div class="tab-details">
+                                    <p>With <a href="/product/chat/" target="_blank">Bytedesk Chat</a> and Message you can proactively engage customers—in real-time and in context. That way customers can get the attention they deserve.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab tab-2" data-tab="guide">
+                            <div class="tab-inner">
+                                <h4 class="tab-trigger with-icon">
+                                    <img class="icon lazyload no-src" data-src="/img/zd/product-icon-guide.svg" alt="Bytedesk Guide logo">
+                                    <span><span class="eyebrow">帮助文档</span>知识库 和 <span class="nowrap">智能自助查询</span></span>
+                                </h4>
+                                <div class="tab-details">
+                                    <p><a href="/product/support/" target="_blank">Bytedesk Guide</a> is a knowledge base for smart self-service. It helps companies increase customer and agent satisfaction, while also reducing support costs.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab tab-3" data-tab="support">
+                            <div class="tab-inner">
+                                <h4 class="tab-trigger with-icon">
+                                    <img class="icon lazyload no-src" data-src="/img/zd/product-icon-chat.svg" alt="Bytedesk Support logo">
+                                    <span><span class="eyebrow">工单系统</span>整合客户工单系统</span>
+                                </h4>
+                                <div class="tab-details">
+                                    <p><a href="/product/workOrder/" target="_blank">Bytedesk Support</a> is a beautifully simple system for tracking, prioritizing, and solving customer support tickets. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab tab-4" data-tab="talk">
+                            <div class="tab-inner">
+                                <h4 class="tab-trigger with-icon">
+                                    <img class="icon lazyload no-src" data-src="/img/zd/product-icon-talk.svg" alt="Bytedesk Talk logo">
+                                    <span><span class="eyebrow">呼叫中心</span>呼叫中心软件</span>
+                                </h4>
+                                <div class="tab-details">
+                                    <p><a href="/product/suite/" target="_blank">Bytedesk Talk</a> makes it easy and efficient for agents to help customers over the phone as part of a seamless omnichannel support experience.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="promo promo-zendesk-suite">
+                    <div class="container flex-content">
+                        <h3 class="lazyload no-src js-localized-image" style="width: 250px;">集团定制</h3>
+                        <!--想您所想，急您所急，满足您个性化需求，保证数据私有安全-->
+                        <p style="text-align: center;">可以满足各种客户的多样定制化需求，支持数据库私有部署，保证数据私有安全性。想您之所想，急您之所急</p>
+                        <!--<p style="text-align: center;">Everything you need to be everywhere your customers are, wrapped up in one pretty package.</p>-->
+                        <div class="cta-section">
+                            <!--<div class="SL_swap" id="homepage-wistia-video-2">-->
+                                <!--<div class="wistia_embed wistia_async_pb5j7gkmaf popover=true popoverContent=html">-->
+                                    <!--<a class="cta small">Watch the video</a>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <a href="/enterprise" class="cta small secondary" target="_blank">了解更多</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!--TODO: 待完善-->
+        <!--<section class="learn">-->
+            <!--<div class="container">-->
+                <!--<div class="intro">-->
+                    <!--<h2>部分客户案例</h2>-->
+                <!--</div>-->
+                <!--<ul class="link-grid SL_swap" id="homepage-logos-2">-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-airbnb.svg" alt="Airbnb logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-slack.svg" alt="Slack logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-open-table.svg" alt="Open Table logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-black-and-decker.svg" alt="Black & Decker logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-ingersoll-rand.svg" alt="Ingersoll Rand logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-tesco.svg" alt="Tesco logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-uber.svg" alt="Uber logo"></li>-->
+                    <!--<li><img class="lazyload no-src" data-src="https://d1eipm3vz40hy0.cloudfront.net/images/p-home/redesign-2018/logo-shopify.svg" alt="Shopify logo"></li>-->
+                <!--</ul>-->
+                <!--<div class="cta-section center SL_swap" id="homepage-testimonials-cta-2">-->
+                    <!--&lt;!&ndash;<a href="/customer/" class="cta tertiary" target="_blank">查看更多客户案例</a>&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</section>-->
+
+        <section class="shine use-padding">
+            <div class="container">
+                <div class="intro">
+                    <h2>智能机器人让工作更高效</h2>
+                </div>
+                <div class="flex-content row-1">
+                    <div class="column-content">
+                        <div class="flex-content">
+                            <div class="copy">
+                                <h3>开箱即用，易于扩展</h3>
+                                <p>Bytedesk products work right out of the box, with powerful features and functions to help any business improve their support operations. Our platform is designed to grow and scale, so it works for companies of any size—from startup to enterprise.</p>
+                            </div>
+                            <div class="copy">
+                                <h3>一站式服务</h3>
+                                <p>Bytedesk omnichannel support offers everything you need for a frictionless customer experience. Our products work together to improve agent efficiency and help customer conversations flow seamlessly across channels.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animation truckin">
+                        <img class="lazyload no-src thumbnail" data-src="/img/zd/truck.svg" alt="Truck animation">
+                    </div>
+                </div>
+                <div class="flex-content row-2">
+                    <div class="animation sittin">
+                        <img class="lazyload no-src thumbnail" width="380px" data-src="/img/zd/lady.svg" alt="Waving animation">
+                    </div>
+                    <div class="column-content">
+                        <div class="flex-content">
+                            <div class="copy">
+                                <h3>事半功倍</h3>
+                                <p>Analytics are an integral part of any support organization, and ours pack a punch. With Bytedesk, you get industry benchmark data, customer intelligence, and better context for every interaction.</p>
+                            </div>
+                            <div class="copy">
+                                <h3>开放平台</h3>
+                                <p>The Bytedesk platform is open, flexible, and extensible. Choose the stock features you want, take your pick of hundreds of pre-built apps from our Apps Marketplace, or build something from scratch with our open APIs.</p>
+                            </div>
+                        </div>
+                        <div class="cta-section">
+                            <!--<a href="/demo/" class="cta">View demo</a>-->
+                            <a href="/admin#/register" class="cta secondary" target="_blank">注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="conclusion use-padding">
+            <div class="container flex-content">
+                <div class="animation">
+                    <img class="lazyload no-src" width="380px" data-src="/img/zd/conclusion.svg" alt="Be the company your customers want you to be">
+                </div>
+                <div class="copy">
+                    <h2>急客户之所急</h2>
+                    <div class="cta-section">
+                        <a href="/admin#/register" class="cta" target="_blank">免费注册</a>
+                        <a href="/contact" class="cta secondary" target="_blank">联系销售</a>
+                        <!--自定义打开窗口按钮，定义id为'byteDesk-start'开头-->
+                        <!--<a id="byteDesk-start-sales" class="cta secondary" target="_blank">联系销售</a>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </article>
+
+    <div th:replace="fragments/zd/footer :: footer-div"/>
+
+    <div th:replace="fragments/zd/footer :: footer-js"/>
+
+    <!--客服上线代码 -->
+    <!--<div th:replace="fragments/footer :: footer-chat"/>-->
+
+    <!--本地对话漂浮框-->
+    <div th:replace="fragments/float :: footer-chat"/>
+
+    <!--本地帮助漂浮框-->
+    <!--<div th:replace="fragments/help :: footer-help"/>-->
+
+
+</body>
+</html>

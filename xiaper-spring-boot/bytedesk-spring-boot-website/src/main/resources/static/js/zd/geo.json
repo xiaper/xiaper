@@ -1,0 +1,14 @@
+{
+  continent: "Asia",
+  continent_code: "AS",
+  country: "China",
+  country_code: "CN",
+  state: "Beijing",
+  city: "Beijing",
+  postal: "unknown",
+  time_zone: "Asia/Shanghai",
+  region: "APAC",
+  ipAddress: "114.252.57.40",
+  latitude: 39.9288,
+  longitude: 116.3889
+}

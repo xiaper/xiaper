@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <title>默认搜索帮助</title>
+</head>
+<body>
+
+
+    <div th:fragment="footer-help">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.18/ua-parser.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.8.0/fingerprint2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.min.js"></script>
+
+        <!--stomp 1.2: https://stomp.github.io/stomp-specification-1.2.html-->
+        <script src="/js/vendor/stomp/1.2/stomp.min.js"></script>
+
+        <script src="https://cdn.bootcss.com/vue/2.5.17/vue.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/element-ui/2.4.7/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+
+        <div id="byteDesk-start" class="byteDesk-start-medium" style="display: none;">
+            <div class="byteDesk-start-medium-div">
+                <i class="iconfont icon-agent" style="font-size: 22px;"></i>
+            </div>
+        </div>
+
+        <div id="byteDesk-app-wrapper" style="display: none">
+
+            <div id="byteDesk-app" v-if="byteDeskVisible">
+
+
+
+            </div>
+
+        </div>
+
+        <script type="text/javascript">
+            var bytedeskapp = new Vue({
+                el: '#byteDesk-app',
+                data() {
+                    return {
+                        byteDeskVisible: false
+                    }
+                },
+                computed: {
+
+                },
+                methods: {
+
+                },
+                created() {
+
+                },
+                mounted() {
+
+                }
+            })
+        </script>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+
+    <div th:replace="fragments/header :: header-meta"/>
+
+    <div th:replace="fragments/header :: header-css"/>
+
+    <title>注册 - <span th:utext="#{title}" th:remove="tag"></span> · <span th:utext="#{slogan}" th:remove="tag"></span></title>
+
+</head>
+<body>
+
+    <div id="header">
+        <div th:replace="fragments/header :: header"/>
+    </div>
+
+    <div id="app" style="height: 1000px; width: 100%; margin-top: 100px; text-align: center;">
+
+        <div class="container" style="margin-top: 200px; text-align: center; min-height: 500px;">
+
+            <form th:action="@{/register}" th:object="${user}" method="post" class="form-signin">
+
+                <h1 class="h3 mb-3 font-weight-normal">注册</h1>
+
+                <div class="form-group" style="margin-top: 5px;margin-bottom: 5px;">
+                    <label th:if="${#fields.hasErrors('username')}" th:errors="*{username}" class="validation-message"></label>
+                    <input type="text" th:field="*{username}" placeholder="用户名" class="form-control" />
+                </div>
+
+                <div class="form-group" style="margin-top: 5px;margin-bottom: 5px;">
+                    <input type="text" th:field="*{mobile}" placeholder="手机号 " class="form-control" />
+                    <label th:if="${#fields.hasErrors('mobile')}" th:errors="*{mobile}" class="validation-message"></label>
+                </div>
+
+                <div class="form-group" style="margin-top: 5px;margin-bottom: 5px;">
+                    <input type="text" th:field="*{email}" placeholder="邮箱" class="form-control" />
+                    <label th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="validation-message"></label>
+                </div>
+
+                <div class="form-group" style="margin-top: 5px;margin-bottom: 5px;">
+                    <input type="password" th:field="*{password}" placeholder="密码" class="form-control" />
+                    <label th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="validation-message"></label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">注册</button>
+                </div>
+
+                <span th:utext="${successMessage}"></span>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div th:replace="fragments/footer :: footer"/>
+
+    <script type="text/javascript">
+        var app = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    textarea: '',
+                    inputSearch: '',
+                };
+            },
+            computed: {
+
+            },
+            methods: {
+
+            }
+        })
+    </script>
+
+</body>
+</html>
