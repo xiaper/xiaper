@@ -20,7 +20,7 @@
 
 	<modules>
 
-		<module>xiaper-spring-boot-autoconfigure</module>
+		<module>spring-boot-autoconfigure</module>
 
 		<module>xiaper-spring-boot-sample-client</module>
 		<module>xiaper-spring-boot-sample-rest-im</module>
