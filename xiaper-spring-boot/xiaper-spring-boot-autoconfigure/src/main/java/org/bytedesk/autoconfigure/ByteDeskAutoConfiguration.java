@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
  *  2. @EnableConfigurationProperties 开启属性注入
  *
  *
- * @author bytedesk.org
+ * @author xiaper.io
  */
 @Configuration
 @EnableConfigurationProperties(ByteDeskProperties.class)

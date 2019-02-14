@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *  2.preffix，该属性配置了读取参数的前缀
  *    根据实体属性对应配置文件内的配置为:bytedesk.version, 配置文件中不提供时则使用默认值
  *
- * @author bytedesk.org
+ * @author xiaper.io
  */
 @ConfigurationProperties(prefix = "bytedesk")
 public class ByteDeskProperties {

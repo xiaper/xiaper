@@ -7,7 +7,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 
 /**
  *
- * @author bytedesk.org
+ * @author xiaper.io
  */
 @SpringBootApplication
 @ComponentScan("org.bytedesk.*")

@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  *
- * @author bytedesk.org
+ * @author xiaper.io
  */
 @SpringBootApplication
 public class MyBatisApplication {

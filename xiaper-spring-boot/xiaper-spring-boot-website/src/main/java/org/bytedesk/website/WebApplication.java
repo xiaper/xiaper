@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * FIXME: 添加ComponentScan为防止引入HelloService等bean,IDEA中提示could not autowire no beans of, 有待优化
  *
- * @author bytedesk.org
+ * @author xiaper.io
  */
 @SpringBootApplication
 public class WebApplication {
