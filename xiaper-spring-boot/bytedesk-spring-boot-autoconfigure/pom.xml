@@ -10,11 +10,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>io.xiaper</groupId>
-	<artifactId>xiaper-spring-boot-autoconfigure</artifactId>
+	<groupId>org.bytedesk</groupId>
+	<artifactId>bytedesk-spring-boot-autoconfigure</artifactId>
 	<version>2.1.2-SNAPSHOT</version>
 
-	<name>xiaper-spring-boot-autoconfigure</name>
+	<name>bytedesk-spring-boot-autoconfigure</name>
 	<description>Demo project for Spring Boot</description>
 
 	<url>http://www.bytedesk.org/</url>

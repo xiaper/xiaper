@@ -11,7 +11,8 @@
 	</parent>
 
 	<groupId>io.xiaper</groupId>
-	<artifactId>xiaper-cloud</artifactId>
+	<!--<artifactId>xiaper-cloud</artifactId>-->
+	<artifactId>xiaper-spring-cloud-sample-webmvc</artifactId>
 	<version>2.1.2-SNAPSHOT</version>
 
 	<name>xiaper-spring-cloud-sample-webmvc</name>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/bytedesk-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/bytedesk-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/server.iml" filepath="$PROJECT_DIR$/server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/xiaper.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/xiaper.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/xiaper-cloud.iml" filepath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/xiaper-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/xiaper-spring-boot-core.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/xiaper-spring-boot-core.iml" />
@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/xiaper-spring-boot-sample-rest-kefu.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/xiaper-spring-boot-sample-rest-kefu.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/xiaper-spring-boot-sample-schedule.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/xiaper-spring-boot-sample-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/xiaper-spring-boot-sample-webflux.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/xiaper-spring-boot-sample-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/xiaper-spring-boot-sample-webmvc.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/xiaper-spring-boot-sample-webmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/xiaper-spring-boot-schedule.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/xiaper-spring-boot-schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-security/xiaper-spring-boot-security.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-security/xiaper-spring-boot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml" />
@@ -41,6 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud.iml" filepath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-config/xiaper-spring-cloud-config.iml" filepath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-config/xiaper-spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-eureka/xiaper-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-eureka/xiaper-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/xiaper-spring-cloud-sample-webmvc.iml" filepath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/xiaper-spring-cloud-sample-webmvc.iml" />
     </modules>
   </component>
 </project>

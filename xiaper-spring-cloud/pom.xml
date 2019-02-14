@@ -19,7 +19,7 @@
 	</properties>
 
 	<modules>
-    <module>xiaper-spring-cloud-sample-webmvc</module>
+    	<module>xiaper-spring-cloud-sample-webmvc</module>
 		<module>xiaper-spring-cloud-config</module>
 		<module>xiaper-spring-cloud-eureka</module>
 	</modules>

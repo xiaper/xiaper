@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bytedesk-spring-boot-autoconfigure" />
         <module name="bytedesk-spring-boot-core" />
         <module name="bytedesk-spring-boot-data-jpa" />
         <module name="bytedesk-spring-boot-data-mybatis" />
@@ -73,6 +74,7 @@
         <module name="xiaper-spring-boot-sample-rest-kefu" />
         <module name="xiaper-spring-boot-sample-schedule" />
         <module name="xiaper-spring-boot-sample-webflux" />
+        <module name="xiaper-spring-boot-sample-webmvc" />
         <module name="xiaper-spring-boot-schedule" />
         <module name="xiaper-spring-boot-security" />
         <module name="xiaper-spring-boot-starter" />
@@ -90,6 +92,7 @@
         <module name="xiaper-spring-boot-wechat" />
         <module name="xiaper-spring-cloud-config" />
         <module name="xiaper-spring-cloud-eureka" />
+        <module name="xiaper-spring-cloud-sample-webmvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -147,6 +150,7 @@
       <module name="xiaper-cloud" target="1.8" />
       <module name="xiaper-server" target="1.5" />
       <module name="xiaper-spring-boot" target="1.5" />
+      <module name="xiaper-spring-boot-autoconfigure" target="1.8" />
       <module name="xiaper-spring-boot-core" target="1.8" />
       <module name="xiaper-spring-boot-data-jpa" target="1.8" />
       <module name="xiaper-spring-boot-data-mybatis" target="1.8" />
@@ -165,6 +169,7 @@
       <module name="xiaper-spring-boot-sample-rest-kefu" target="1.8" />
       <module name="xiaper-spring-boot-sample-schedule" target="1.8" />
       <module name="xiaper-spring-boot-sample-webflux" target="1.8" />
+      <module name="xiaper-spring-boot-sample-webmvc" target="1.8" />
       <module name="xiaper-spring-boot-schedule" target="1.8" />
       <module name="xiaper-spring-boot-security" target="1.8" />
       <module name="xiaper-spring-boot-starter" target="1.8" />
@@ -183,6 +188,7 @@
       <module name="xiaper-spring-cloud" target="1.5" />
       <module name="xiaper-spring-cloud-config" target="1.8" />
       <module name="xiaper-spring-cloud-eureka" target="1.8" />
+      <module name="xiaper-spring-cloud-sample-webmvc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
