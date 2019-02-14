@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/server.iml" filepath="$PROJECT_DIR$/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/server.iml" filepath="$PROJECT_DIR$/.idea/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/xiaper-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/xiaper-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/xiaper-spring-boot-core.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/xiaper-spring-boot-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/xiaper-spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/xiaper-spring-boot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-mybatis/xiaper-spring-boot-data-mybatis.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-mybatis/xiaper-spring-boot-data-mybatis.iml" />

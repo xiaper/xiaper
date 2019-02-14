@@ -1,4 +1,4 @@
 
 #
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  org.bytedesk.autoconfigure.XiaperAutoConfiguration
+  org.bytedesk.autoconfigure.ByteDeskAutoConfiguration

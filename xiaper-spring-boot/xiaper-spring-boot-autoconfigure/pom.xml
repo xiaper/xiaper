@@ -12,7 +12,7 @@
 
 	<groupId>io.xiaper</groupId>
 	<artifactId>xiaper-spring-boot-autoconfigure</artifactId>
-	<version>2.1.2</version>
+	<version>2.1.2-SNAPSHOT</version>
 
 	<name>xiaper-spring-boot-autoconfigure</name>
 	<description>Demo project for Spring Boot</description>
@@ -64,6 +64,17 @@
 		</dependency>
 
 	</dependencies>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
 
 	<profiles>
 		<profile>

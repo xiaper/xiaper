@@ -18,12 +18,12 @@ import org.springframework.context.annotation.Configuration;
  * @author bytedesk.org
  */
 @Configuration
-@EnableConfigurationProperties(XiaperProperties.class)
+@EnableConfigurationProperties(ByteDeskProperties.class)
 @ConditionalOnProperty(prefix = "bytedesk", value = "enabled", matchIfMissing = true)
-public class XiaperAutoConfiguration {
+public class ByteDeskAutoConfiguration {
 
 	@Autowired
-	private XiaperProperties byteDeskProperties;
+	private ByteDeskProperties byteDeskProperties;
 
 	/**
 	 * 根据条件判断不存在HelloService时初始化新bean到SpringIoc
