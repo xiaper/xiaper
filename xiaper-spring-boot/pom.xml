@@ -42,7 +42,6 @@
 		<module>xiaper-spring-boot-data-mybatis</module>
 		<module>xiaper-spring-boot-data-redis</module>
 		<module>xiaper-spring-boot-mysql</module>
-		<module>xiaper-spring-boot-oracle</module>
 		<module>xiaper-spring-boot-push</module>
 
 		<module>xiaper-spring-boot-rest</module>
