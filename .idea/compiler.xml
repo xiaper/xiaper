@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bytedesk-spring-boot-core" />
+        <module name="bytedesk-spring-boot-data-jpa" />
+        <module name="bytedesk-spring-boot-data-mybatis" />
+        <module name="bytedesk-spring-boot-data-redis" />
+        <module name="bytedesk-spring-boot-mysql" />
+        <module name="bytedesk-spring-boot-pro-activiti" />
+        <module name="bytedesk-spring-boot-pro-callcenter" />
+        <module name="bytedesk-spring-boot-pro-crm" />
+        <module name="bytedesk-spring-boot-pro-flowable" />
+        <module name="bytedesk-spring-boot-pro-knowledge" />
+        <module name="bytedesk-spring-boot-pro-oracle" />
+        <module name="bytedesk-spring-boot-pro-rest-kefu" />
+        <module name="bytedesk-spring-boot-pro-robot" />
+        <module name="bytedesk-spring-boot-pro-router-activemq" />
+        <module name="bytedesk-spring-boot-pro-router-rabbitmq" />
+        <module name="bytedesk-spring-boot-pro-router-rocketmq" />
+        <module name="bytedesk-spring-boot-pro-sample-rest-kefu" />
+        <module name="bytedesk-spring-boot-pro-sample-schedule" />
+        <module name="bytedesk-spring-boot-pro-schedule" />
+        <module name="bytedesk-spring-boot-pro-starter" />
+        <module name="bytedesk-spring-boot-pro-starter-callcenter" />
+        <module name="bytedesk-spring-boot-pro-starter-crm" />
+        <module name="bytedesk-spring-boot-pro-starter-kefu" />
+        <module name="bytedesk-spring-boot-pro-starter-knowledge" />
+        <module name="bytedesk-spring-boot-pro-starter-rest-kefu" />
+        <module name="bytedesk-spring-boot-pro-starter-schedule" />
+        <module name="bytedesk-spring-boot-pro-starter-ticket" />
+        <module name="bytedesk-spring-boot-pro-starter-wechat" />
+        <module name="bytedesk-spring-boot-pro-web-kefu" />
+        <module name="bytedesk-spring-boot-pro-webrtc" />
+        <module name="bytedesk-spring-boot-pro-wechat" />
+        <module name="bytedesk-spring-boot-push" />
+        <module name="bytedesk-spring-boot-rest" />
+        <module name="bytedesk-spring-boot-rest-im" />
+        <module name="bytedesk-spring-boot-router" />
+        <module name="bytedesk-spring-boot-sample-client" />
+        <module name="bytedesk-spring-boot-sample-rest-im" />
+        <module name="bytedesk-spring-boot-sample-webflux" />
+        <module name="bytedesk-spring-boot-security" />
+        <module name="bytedesk-spring-boot-starter" />
+        <module name="bytedesk-spring-boot-starter-im" />
+        <module name="bytedesk-spring-boot-starter-rest-im" />
+        <module name="bytedesk-spring-boot-web-common" />
+        <module name="bytedesk-spring-boot-web-community" />
+        <module name="bytedesk-spring-boot-web-im" />
+        <module name="bytedesk-spring-boot-website" />
+        <module name="bytedesk-spring-cloud-config" />
+        <module name="bytedesk-spring-cloud-eureka" />
+        <module name="xiaper" />
+        <module name="xiaper-cloud" />
+        <module name="xiaper-spring-boot-core" />
+        <module name="xiaper-spring-boot-data-jpa" />
+        <module name="xiaper-spring-boot-data-mybatis" />
+        <module name="xiaper-spring-boot-data-redis" />
+        <module name="xiaper-spring-boot-mysql" />
+        <module name="xiaper-spring-boot-oracle" />
+        <module name="xiaper-spring-boot-push" />
+        <module name="xiaper-spring-boot-rest" />
+        <module name="xiaper-spring-boot-rest-im" />
+        <module name="xiaper-spring-boot-rest-kefu" />
+        <module name="xiaper-spring-boot-robot" />
+        <module name="xiaper-spring-boot-router" />
+        <module name="xiaper-spring-boot-sample-client" />
+        <module name="xiaper-spring-boot-sample-rest-im" />
+        <module name="xiaper-spring-boot-sample-rest-kefu" />
+        <module name="xiaper-spring-boot-sample-schedule" />
+        <module name="xiaper-spring-boot-sample-webflux" />
+        <module name="xiaper-spring-boot-schedule" />
+        <module name="xiaper-spring-boot-security" />
+        <module name="xiaper-spring-boot-starter" />
+        <module name="xiaper-spring-boot-starter-im" />
+        <module name="xiaper-spring-boot-starter-kefu" />
+        <module name="xiaper-spring-boot-starter-rest-im" />
+        <module name="xiaper-spring-boot-starter-rest-kefu" />
+        <module name="xiaper-spring-boot-starter-schedule" />
+        <module name="xiaper-spring-boot-starter-wechat" />
+        <module name="xiaper-spring-boot-web-common" />
+        <module name="xiaper-spring-boot-web-community" />
+        <module name="xiaper-spring-boot-web-im" />
+        <module name="xiaper-spring-boot-web-kefu" />
+        <module name="xiaper-spring-boot-website" />
+        <module name="xiaper-spring-boot-wechat" />
+        <module name="xiaper-spring-cloud-config" />
+        <module name="xiaper-spring-cloud-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bytedesk-spring-boot-autoconfigure" target="1.8" />
+      <module name="bytedesk-spring-boot-core" target="1.8" />
+      <module name="bytedesk-spring-boot-data-jpa" target="1.8" />
+      <module name="bytedesk-spring-boot-data-mybatis" target="1.8" />
+      <module name="bytedesk-spring-boot-data-redis" target="1.8" />
+      <module name="bytedesk-spring-boot-mysql" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-activiti" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-callcenter" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-crm" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-flowable" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-knowledge" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-oracle" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-rest-kefu" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-robot" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-router-activemq" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-router-rabbitmq" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-router-rocketmq" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-sample-rest-kefu" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-sample-schedule" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-schedule" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-callcenter" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-crm" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-kefu" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-knowledge" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-rest-kefu" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-schedule" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-ticket" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-starter-wechat" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-web-kefu" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-webrtc" target="1.8" />
+      <module name="bytedesk-spring-boot-pro-wechat" target="1.8" />
+      <module name="bytedesk-spring-boot-push" target="1.8" />
+      <module name="bytedesk-spring-boot-rest" target="1.8" />
+      <module name="bytedesk-spring-boot-rest-im" target="1.8" />
+      <module name="bytedesk-spring-boot-router" target="1.8" />
+      <module name="bytedesk-spring-boot-sample-client" target="1.8" />
+      <module name="bytedesk-spring-boot-sample-rest-im" target="1.8" />
+      <module name="bytedesk-spring-boot-sample-webflux" target="1.8" />
+      <module name="bytedesk-spring-boot-security" target="1.8" />
+      <module name="bytedesk-spring-boot-starter" target="1.8" />
+      <module name="bytedesk-spring-boot-starter-im" target="1.8" />
+      <module name="bytedesk-spring-boot-starter-rest-im" target="1.8" />
+      <module name="bytedesk-spring-boot-web-common" target="1.8" />
+      <module name="bytedesk-spring-boot-web-community" target="1.8" />
+      <module name="bytedesk-spring-boot-web-im" target="1.8" />
+      <module name="bytedesk-spring-boot-website" target="1.8" />
+      <module name="bytedesk-spring-cloud-config" target="1.8" />
+      <module name="bytedesk-spring-cloud-eureka" target="1.8" />
+      <module name="server" target="1.5" />
+      <module name="xiaper" target="1.8" />
+      <module name="xiaper-cloud" target="1.8" />
+      <module name="xiaper-server" target="1.5" />
+      <module name="xiaper-spring-boot" target="1.5" />
+      <module name="xiaper-spring-boot-core" target="1.8" />
+      <module name="xiaper-spring-boot-data-jpa" target="1.8" />
+      <module name="xiaper-spring-boot-data-mybatis" target="1.8" />
+      <module name="xiaper-spring-boot-data-redis" target="1.8" />
+      <module name="xiaper-spring-boot-mysql" target="1.8" />
+      <module name="xiaper-spring-boot-oracle" target="1.8" />
+      <module name="xiaper-spring-boot-pro" target="1.5" />
+      <module name="xiaper-spring-boot-push" target="1.8" />
+      <module name="xiaper-spring-boot-rest" target="1.8" />
+      <module name="xiaper-spring-boot-rest-im" target="1.8" />
+      <module name="xiaper-spring-boot-rest-kefu" target="1.8" />
+      <module name="xiaper-spring-boot-robot" target="1.8" />
+      <module name="xiaper-spring-boot-router" target="1.8" />
+      <module name="xiaper-spring-boot-sample-client" target="1.8" />
+      <module name="xiaper-spring-boot-sample-rest-im" target="1.8" />
+      <module name="xiaper-spring-boot-sample-rest-kefu" target="1.8" />
+      <module name="xiaper-spring-boot-sample-schedule" target="1.8" />
+      <module name="xiaper-spring-boot-sample-webflux" target="1.8" />
+      <module name="xiaper-spring-boot-schedule" target="1.8" />
+      <module name="xiaper-spring-boot-security" target="1.8" />
+      <module name="xiaper-spring-boot-starter" target="1.8" />
+      <module name="xiaper-spring-boot-starter-im" target="1.8" />
+      <module name="xiaper-spring-boot-starter-kefu" target="1.8" />
+      <module name="xiaper-spring-boot-starter-rest-im" target="1.8" />
+      <module name="xiaper-spring-boot-starter-rest-kefu" target="1.8" />
+      <module name="xiaper-spring-boot-starter-schedule" target="1.8" />
+      <module name="xiaper-spring-boot-starter-wechat" target="1.8" />
+      <module name="xiaper-spring-boot-web-common" target="1.8" />
+      <module name="xiaper-spring-boot-web-community" target="1.8" />
+      <module name="xiaper-spring-boot-web-im" target="1.8" />
+      <module name="xiaper-spring-boot-web-kefu" target="1.8" />
+      <module name="xiaper-spring-boot-website" target="1.8" />
+      <module name="xiaper-spring-boot-wechat" target="1.8" />
+      <module name="xiaper-spring-cloud" target="1.5" />
+      <module name="xiaper-spring-cloud-config" target="1.8" />
+      <module name="xiaper-spring-cloud-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

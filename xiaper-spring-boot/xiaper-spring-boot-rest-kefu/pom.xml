@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.2.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<groupId>io.xiaper</groupId>
+	<artifactId>xiaper-spring-boot-rest-kefu</artifactId>
+	<version>2.1.2-SNAPSHOT</version>
+
+	<name>xiaper-spring-boot-rest-kefu</name>
+	<description>Demo project for Spring Boot</description>
+
+	<url>http://www.bytedesk.org/</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>jackning</name>
+			<email>270580156@qq.com</email>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git@github.com/Bytedesk/bytedesk-server.git</connection>
+		<developerConnection>scm:git:git@github.com/Bytedesk/bytedesk-server.git</developerConnection>
+		<url>git@github.com/Bytedesk/bytedesk-server</url>
+	</scm>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<proguard.version>6.0.3</proguard.version>
+	</properties>
+
+	<dependencies>
+
+		<!--授权oauth-->
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>2.3.4.RELEASE</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--security-->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-messaging</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--缓存-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--jpa-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--redis-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--提供rest接口-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--rabbitmq-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--mysql-->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+		<!--核心路由层rabbitmq实现-->
+		<dependency>
+			<groupId>io.xiaper</groupId>
+			<artifactId>xiaper-spring-boot-router-rabbitmq</artifactId>
+			<version>${project.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.xiaper</groupId>
+			<artifactId>xiaper-spring-boot-data-jpa</artifactId>
+			<version>${project.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.xiaper</groupId>
+			<artifactId>xiaper-spring-boot-rest</artifactId>
+			<version>2.1.2-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.xiaper</groupId>
+			<artifactId>xiaper-spring-boot-wechat</artifactId>
+			<version>${project.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+		<!--json, 注：module jpa 中已经存在-->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.46</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Swagger 2 构建RestFull API文档  -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--Spring REST Docs-->
+		<dependency>
+			<groupId>org.springframework.restdocs</groupId>
+			<artifactId>spring-restdocs-mockmvc</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!--生成离线文档-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-staticdocs</artifactId>
+			<version>2.6.1</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<!--混淆之后jar包名-->
+		<finalName>${project.artifactId}-proguard-${project.version}</finalName>
+		<plugins>
+			<!-- 混淆参考：https://github.com/seregaSLM/proguard-spring-boot-example/blob/master/pom.xml -->
+			<plugin>
+				<groupId>com.github.wvengen</groupId>
+				<artifactId>proguard-maven-plugin</artifactId>
+				<version>2.0.14</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>proguard</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<proguardVersion>${proguard.version}</proguardVersion>
+					<injar>${project.build.finalName}.jar</injar>
+					<outjar>${project.build.finalName}.jar</outjar>
+					<obfuscate>true</obfuscate>
+					<options>
+						<option>-dontshrink</option>
+						<option>-dontoptimize</option>
+						<!-- This option will replace all strings in reflections method invocations with new class names.
+                             For example, invokes Class.forName('className')-->
+						<option>-adaptclassstrings</option>
+						<!-- This option will save all original annotations and etc. Otherwise all we be removed from files.-->
+						<option>-keepattributes
+							Exceptions,
+							InnerClasses,
+							Signature,
+							Deprecated,
+							SourceFile,
+							LineNumberTable,
+							*Annotation*,
+							EnclosingMethod
+						</option>
+						<!-- This option will save all original names in interfaces (without obfuscate).-->
+						<option>-keepnames interface **</option>
+						<!-- This option will save all original methods parameters in files defined in -keep sections,
+                             otherwise all parameter names will be obfuscate.-->
+						<option>-keepparameternames</option>
+						<!-- This option will save all original class files (without obfuscate) but obfuscate all
+                             in domain and service packages.-->
+						<option>-keep
+							class org.bytedesk.restkefu.RestKefuApplication {
+							public static void main(java.lang.String[]);
+							}
+						</option>
+						<!-- This option ignore warnings such as duplicate class definitions and classes in incorrectly
+                            named files-->
+						<option>-ignorewarnings</option>
+						<!-- This option will save all original class files (without obfuscate) in service package-->
+						<!--<option>-keep class com.slm.proguard.example.spring.boot.service { *; }</option>-->
+						<!-- This option will save all original interfaces files (without obfuscate) in all packages.-->
+						<option>-keep interface * extends * { *; }</option>
+						<!-- This option will save all original defined annotations in all class in all packages.-->
+						<option>-keepclassmembers class * {
+							@org.springframework.beans.factory.annotation.Autowired *;
+							@org.springframework.beans.factory.annotation.Value *;
+							}
+						</option>
+					</options>
+					<injarNotExistsSkip>true</injarNotExistsSkip>
+					<libs>
+						<!--Put here your libraries if required-->
+						<!--<lib>${java.home}/lib/rt.jar</lib>-->
+					</libs>
+				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>net.sf.proguard</groupId>
+						<artifactId>proguard-base</artifactId>
+						<version>${proguard.version}</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+
+	</build>
+
+
+</project>

@@ -1,0 +1,307 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+
+    <div th:fragment="header-meta">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="renderer" content="webkit">
+        <meta name="keywords" content="ByteDesk.com 微客服 在线客服系统 微信客服系统 智能客服系统 即时通讯云 企业协作系统 工单系统 App android ios 苹果 安卓 微信 微信公众平台 微服务 android iOS 微客服 App客服  App在线客服 App 在线咨询 移动开发者服务平台 微客服  在线客服  微博 新浪微博 微信 微语 聊天 移动聊天 免费 发信息 发图片 语音 weixin 离线消息 微博 私信 流量" />
+        <meta name="description" content="ByteDesk.com 微客服 卓越的在线客服系统 微信客服系统 智能客服系统 即时通讯云 企业协作系统 工单系统 android ios 苹果 安卓 微信 微信公众平台 微服务 微客服 App在线客服 App在线咨询 android iOS 安卓 移动开发者服务平台 一款跨平台的在线客服工具。支持多个微博、绑定多个账号。通过获取微博用户关系链、粉丝、好友，挖掘潜在客户。" />
+        <meta name="author" content="ByteDesk.com">
+        <link rel="icon" href="/favicon.ico">
+    </div>
+
+</head>
+<body>
+
+    <div th:fragment="header">
+
+        <header class="global-header " role="banner">
+            <div class="container">
+                <nav class="secondary-nav">
+                    <ul class="menu SL_swap" id="smartling-secondary-nav">
+                        <li><a class="secondary-link" href="/admin#/login" target="_blank">登录</a></li>
+                        <li class="has-dropdown">
+                            <a class="secondary-link open-dropdown js-open-dropdown" href="#">产品<span class="ent-text"></span></a>
+                            <ul class="dropdown dropdown-secondary">
+                                <li class="list-item"><a href="/product/chat/" target="_blank">在线客服</a></li>
+                                <li class="list-item"><a href="/product/robot/" target="_blank">智能客服</a></li>
+                                <li class="list-item"><a href="/product/support" target="_blank">帮助中心</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a class="secondary-link open-dropdown js-open-dropdown" href="#">公司<span class="ent-text"></span></a>
+                            <ul class="dropdown dropdown-secondary">
+                                <li class="list-item"><a href="/about/" target="_blank">关于</a></li>
+                                <!--<li class="list-item"><a href="/company/press/">Press</a></li>-->
+                                <!--<li class="list-item SL_norewrite"><a href="//investor.bytedesk.com/">Investors</a></li>-->
+                            </ul>
+                        </li>
+                        <li><a class="secondary-link" href="/contact/" target="_blank">联系我们</a></li>
+                        <li class="has-dropdown">
+                            <a class="secondary-link open-dropdown" href="#">English</a>
+                            <ul class="dropdown dropdown-secondary">
+                                <li class="list-item"><a class="sl_norewrite" data-lang="en" href="/?lang=en_US">English</a></li>
+                                <li class="list-item"><a class="sl_norewrite" data-lang="en-gb" href="/?lang=zh_CN">中文</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="sticky-marker"></div>
+                <div class="sticky-container js-sticky-container">
+                    <nav class="primary-nav">
+                        <ul class="menu">
+                            <li class="logo">
+                                <a href="/" class="Bytedesk-logo" style="font-size: 23px;"><span th:utext="#{title}"></span></a>
+                            </li>
+                            <li class="toggle-mobile-menu js-toggle-mobile-menu show-mobile-only">
+                                <a href="#">Toggle Mobile Menu</a>
+                            </li>
+                        </ul>
+                        <ul class="menu nav-items">
+                            <li class="has-dropdown">
+                                <a class="open-dropdown js-open-dropdown primary-link" href="/product/tour/">所有产品</a>
+                                <div class="dropdown dropdown-primary">
+                                    <div class="dropdown-inner">
+                                        <div class="columns SL_swap" id="global-header-products-dropdown">
+                                            <div class="column">
+                                                <div class="intro">
+                                                    <p class="subhead">让工作更高效</p>
+                                                </div>
+                                                <div class="featured">
+                                                    <a href="/product/suite" class="block-link" target="_blank">
+                                                        <div class="logo Bytedesk-suite-logo">
+                                                        </div>
+                                                        <p class="h3">产品套件</p>
+                                                        <p>Everything you need to be everywhere your customers are, wrapped up in one pretty package.</p>
+                                                        <p>包括: 帮助文档, 在线客服, 智能客服等</p>
+                                                    </a>
+                                                </div>
+                                                <!--<p class="h4 additional-ctas">Customize and extend with our <a href="//developer.bytedesk.com">APIs</a>,-->
+                                                <!--<a href="/developer-platform/">Developer Tools</a>, and <a href="/apps/">Apps Marketplace</a></p>-->
+                                            </div>
+                                            <div class="column product-list">
+                                                <div class="intro">
+                                                    <p class="subhead">所有产品</p>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <a href="/product/agent/" class="block-link chat" target="_blank">
+                                                            <div class="copy">
+                                                                <p class="h3">在线客服</p>
+                                                                <p>Live chat and messaging</p>
+                                                            </div>
+                                                            <div class="icon product-icon chat"></div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/product/robot/" class="block-link support" target="_blank">
+                                                            <div class="copy">
+                                                                <p class="h3">智能机器人</p>
+                                                                <p>Intelligent Robot Agent</p>
+                                                            </div>
+                                                            <div class="icon product-icon support"></div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/product/chat/" class="block-link connect" target="_blank">
+                                                            <div class="copy">
+                                                                <p class="h3">企业内部IM</p>
+                                                                <p>Internal Chat</p>
+                                                            </div>
+                                                            <div class="icon product-icon connect"></div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/product/imcloud/" class="block-link talk" target="_blank">
+                                                            <div class="copy">
+                                                                <p class="h3">即时通信云</p>
+                                                                <p>Social And Group Chat</p>
+                                                            </div>
+                                                            <div class="icon product-icon talk"></div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/product/wechat/" class="block-link explore" target="_blank">
+                                                            <div class="copy">
+                                                                <p class="h3">微信管家</p>
+                                                                <p>WeChat Message And Contact Management</p>
+                                                            </div>
+                                                            <div class="icon product-icon explore"></div>
+                                                        </a>
+                                                    </li>
+                                                    <!--<li>-->
+                                                        <!--<a href="/guide/" class="block-link guide">-->
+                                                            <!--<div class="copy">-->
+                                                                <!--<p class="h3">工单系统</p>-->
+                                                                <!--<p>Knowledge base and smart self-service</p>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="icon product-icon guide"></div>-->
+                                                        <!--</a>-->
+                                                    <!--</li>-->
+                                                    <!--<li>-->
+                                                        <!--<a href="/talk/" class="block-link talk">-->
+                                                            <!--<div class="copy">-->
+                                                                <!--<p class="h3">呼叫中心</p>-->
+                                                                <!--<p>Call center software</p>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="icon product-icon talk"></div>-->
+                                                        <!--</a>-->
+                                                    <!--</li>-->
+                                                    <!--<li>-->
+                                                        <!--<a href="/connect/" class="block-link connect">-->
+                                                            <!--<div class="copy">-->
+                                                                <!--<p class="h3">意见反馈</p>-->
+                                                                <!--<p>Proactive campaigns</p>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="icon product-icon connect"></div>-->
+                                                        <!--</a>-->
+                                                    <!--</li>-->
+                                                    <!--<li>-->
+                                                        <!--<a href="/connect/" class="block-link connect">-->
+                                                            <!--<div class="copy">-->
+                                                                <!--<p class="h3">客户管理CRM</p>-->
+                                                                <!--<p>Proactive campaigns</p>-->
+                                                            <!--</div>-->
+                                                            <!--<div class="icon product-icon connect"></div>-->
+                                                        <!--</a>-->
+                                                    <!--</li>-->
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="primary-link" href="/price/" target="_blank">价格方案</a>
+                            </li>
+                            <li>
+                                <a class="primary-link" href="/download/" target="_blank">下载地址</a>
+                            </li>
+                            <li>
+                                <a class="primary-link" href="/support?uid=201808221551193" target="_blank">帮助文档</a>
+                            </li>
+                            <li class="has-dropdown">
+                                <a class="open-dropdown js-open-dropdown primary-link" href="#">解决方案</a>
+                                <div class="dropdown dropdown-primary dropdown-wide">
+                                    <div class="dropdown-inner">
+                                        <div class="intro hide-mobile-only">
+                                            <p class="subhead">解决方案</p>
+                                        </div>
+                                        <ul class="inline-list col-3 SL_swap" id="global-header-solutions-dropdown">
+                                            <li>
+                                                <a href="/solution/shop/" class="block-link" target="_blank">
+                                                    <p class="h3">电商行业</p>
+                                                    <p>Seamless customer service across all channels</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/solution/edu/" class="block-link" target="_blank">
+                                                    <p class="h3">教育行业</p>
+                                                    <p>Improved resolution rates, lower support costs, and happier customers</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/solution/medical/" class="block-link" target="_blank">
+                                                    <p class="h3">医疗行业</p>
+                                                    <p>An agile solution to scale your support operations</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/solution/money/" class="block-link" target="_blank">
+                                                    <p class="h3">金融行业</p>
+                                                    <p>An agile solution to scale your support operations</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!--<li class="has-dropdown">-->
+                                <!--<a class="open-dropdown js-open-dropdown primary-link" href="/resources/">资源</a>-->
+                                <!--<div class="dropdown dropdown-primary dropdown-wide">-->
+                                    <!--<div class="dropdown-inner">-->
+                                        <!--<div class="intro hide-mobile-only">-->
+                                            <!--<p class="subhead">资源</p>-->
+                                        <!--</div>-->
+                                        <!--<ul class="inline-list col-3 SL_swap" id="global-header-resources-dropdown">-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/resources/">-->
+                                                    <!--<p class="h3">Library</p>-->
+                                                    <!--<p>Guides, research, videos, and resources</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/company/events/">-->
+                                                    <!--<p class="h3">Events</p>-->
+                                                    <!--<p>Come meet us in person</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/partner/">-->
+                                                    <!--<p class="h3">Partners</p>-->
+                                                    <!--<p>How to locate or become a Bytedesk partner</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/blog/">-->
+                                                    <!--<p class="h3">Blog</p>-->
+                                                    <!--<p>News, tips, and best practices</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/support/webinars/">-->
+                                                    <!--<p class="h3">Live webinars</p>-->
+                                                    <!--<p>Online events</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="//developer.bytedesk.com/">-->
+                                                    <!--<p class="h3">API & Developers</p>-->
+                                                    <!--<p>Info for building things with Bytedesk</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/why-Bytedesk/customers/">-->
+                                                    <!--<p class="h3">Customer stories</p>-->
+                                                    <!--<p>See what success with Bytedesk looks like</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="//relate.bytedesk.com/">-->
+                                                    <!--<p class="h3">Relate by Bytedesk</p>-->
+                                                    <!--<p>Customers. Colleagues. Community. It's complicated.</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a class="block-link" href="/repeatcustomer/">-->
+                                                    <!--<p class="h3">Repeat Customer</p>-->
+                                                    <!--<p>A podcast about amazing customer experiences</p>-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                        <!--</ul>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</li>-->
+                            <li class="has-cta">
+                                <a class="cta primary small" href="/admin#/login" target="_blank">登录</a>
+                            </li>
+                            <li class="has-cta">
+                                <a class="cta primary small" href="/admin#/register" target="_blank">注册</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+    </div>
+
+</body>
+</html>

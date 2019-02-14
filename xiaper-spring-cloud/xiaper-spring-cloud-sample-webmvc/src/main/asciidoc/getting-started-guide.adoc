@@ -1,0 +1,27 @@
+= RESTful Notes Getting Started Guide: Subtitle
+bytedesk(c) 2019 jackning
+Version 1.1, 2019-01-10
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: My Content
+:experimental:
+:description: Example AsciiDoc document
+:keywords: AsciiDoc
+:imagesdir: ./img
+:sectlinks:
+:operation-curl-request-title: Example request
+:operation-http-response-title: Example response
+
+[introduction]
+= Introduction
+
+RESTful Notes is a RESTful web service for creating and storing notes. It uses hypermedia
+to describe the relationships between resources and to allow navigation between them.
+
+[getting-started]
+= Getting started
+

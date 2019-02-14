@@ -1,0 +1,119 @@
+
+.byteDesk-start-normal {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    z-index: 10000;
+}
+
+.byteDesk-start-normal-div {
+    margin-top: 12px;
+}
+
+.byteDesk-start-normal-icon {
+    font-size: 25px !important;
+}
+
+.byteDesk-start-medium {
+    border-radius:5px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    z-index: 10000;
+}
+
+.byteDesk-start-medium-div {
+    margin-top: 10px;
+}
+
+.byteDesk-start-medium-icon {
+    font-size: 22px !important;
+}
+
+.byteDesk-start-small {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    z-index: 10000;
+}
+
+.byteDesk-start-small-div {
+    margin-top: 10px;
+}
+
+.byteDesk-start-small-icon {
+    font-size: 15px !important;
+}
+
+.byteDesk-start-mini {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    z-index: 10000;
+}
+
+.byteDesk-start-mini-div {
+    margin-top: 1px;
+}
+
+.byteDesk-start-mini-icon {
+    font-size: 3px !important;
+}
+
+#byteDesk-app-wrapper{
+    z-index: 10000;
+}
+
+#byteDesk-app {
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    width: 600px;
+    height: 500px;
+    color: white;
+    border: 1px solid #e4e7ed;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #888888;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+

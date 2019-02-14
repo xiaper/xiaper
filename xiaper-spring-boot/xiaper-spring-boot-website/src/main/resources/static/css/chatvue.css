@@ -1,0 +1,404 @@
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: calc(100% - 60px);
+    margin: 0px 0px 0px 0px;
+}
+
+#app-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+}
+
+#content{
+    margin-top: 60px;
+    height: 100%;
+    width: 100%;
+    margin-left: 1px;
+}
+
+#message-pc{
+    height: calc(100% - 160px);
+    padding: 10px;
+    overflow-y: scroll;
+    border: 0px;
+    background-color: ghostwhite;
+}
+
+#input-pc{
+    height: 160px;
+    min-height: 50px;
+    background-color: ivory;
+    overflow-y: scroll;
+}
+
+.el-textarea {
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-pc-buttons {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.bd-input-emoji {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+    list-style: none;
+    color: gray;
+}
+
+.bd-message-clear {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+.bd-message-rate {
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+.bd-message-video {
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+.bd-message-tip {
+    float: left;
+    margin-top: 4px;
+    margin-left: 15px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 10px;
+    color: gray;
+}
+
+
+.input-emoji-box {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: -305px;
+    width: 300px;
+    height: 300px;
+    padding: 3px 6px 6px 14px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    box-shadow:0 1px 2px 1px #d1d1d1;
+}
+
+.input-emoji-box li {
+    list-style: none;
+    width: 24px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.input-emoji-box.showbox-enter-active, .input-emoji-box.showbox-leave-active {
+    transition: all .5s;
+}
+
+.input-emoji-box.showbox-enter, .input-emoji-box.showbox-leave-active {
+    opacity: 0;
+}
+
+.bd-upload-image {
+    font-size: 25px;
+    color: gray;
+    margin-left: 20px;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+#input-pc-send {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
+
+#message-mobile{
+    height: 90%;
+}
+
+#input-mobile {
+    height: 10%;
+    min-height: 50px;
+    background-color: #f5f7fa;
+}
+
+.input-mobile-buttons {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.input-mobile-input {
+    width: calc(100% - 135px);
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+
+/**
+聊天记录
+ */
+
+.pullrefresh {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.message-ul {
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.message-ul li {
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.timestamp {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.timestamp span {
+    display: inline-block;
+    padding: 0 8px;
+    color: #fff;
+    border-radius: 5px;
+    color: #bbbbbb;
+}
+
+.avatar {
+    float: left;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+}
+
+.nickname {
+    text-align: left;
+    font-size: 10px;
+    color: black;
+}
+
+.text {
+    float: left;
+    color: black;
+    position: relative;
+    padding: 5px 10px 5px;
+    max-width: calc(100% - 250px);
+    min-height: 30px;
+    line-height: 2.5;
+    font-size: 12px;
+    text-align: left;
+    word-break: break-all;
+    background-color: #dddddd;
+    border-radius: 4px;
+}
+
+.text:before {
+    content: " ";
+    position: absolute;
+    top: 9px;
+    right: 100%;
+    border: 6px solid transparent;
+    border-right-color: #dddddd;
+}
+
+.self {
+    text-align: right;
+}
+
+.self .avatar {
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.self .text {
+    float: right;
+    background-color: #b2e281;
+}
+
+.self .text:before {
+    right: inherit;
+    left: 100%;
+    border-right-color: transparent;
+    border-left-color: #b2e281;
+}
+
+.self .status {
+    float: right;
+    margin-right: 8px;
+}
+
+/**
+移动端页面
+*/
+.avatar-mobile {
+    float: left;
+    margin: 0 10px 0 5px;
+    border-radius: 3px;
+}
+
+.self .avatar-mobile {
+    float: right;
+    margin: 0 10px 0 10px;
+}
+
+.text-mobile {
+    float: left;
+    color: black;
+    position: relative;
+    padding: 5px 10px 5px;
+    max-width: calc(100% - 100px);
+    min-height: 30px;
+    line-height: 2.5;
+    font-size: 12px;
+    text-align: left;
+    word-break: break-all;
+    background-color: #dddddd;
+    border-radius: 4px;
+}
+
+.text-mobile:before {
+    content: " ";
+    position: absolute;
+    top: 9px;
+    right: 100%;
+    border: 6px solid transparent;
+    border-right-color: #dddddd;
+}
+
+.self .text-mobile {
+    float: right;
+    background-color: #b2e281;
+}
+
+.self .text-mobile:before {
+    right: inherit;
+    left: 100%;
+    border-right-color: transparent;
+    border-left-color: #b2e281;
+}
+
+.notification {
+    text-align: center;
+}
+
+#byteDesk-faq {
+    color: black;
+    height: 100%;
+    overflow-y: auto;
+    height: 90%;
+}
+
+.byteDesk-question {
+    cursor: pointer;
+    font-size: 10px;
+    color: gray;
+    margin-left: 25px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#byteDesk-logo{
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+#byteDesk-logo a {
+    color: gray;
+}
+
+#byteDesk-leave {
+    background-color: ghostwhite;
+    height: 100%;
+    width: 100%;
+    margin-right: -15px;
+    color: black;
+}
+
+#byteDesk-right {
+    text-align: center;
+    background-color: white;
+    height: 100%;
+    padding-right: 0px;
+}
+
+#byteDesk-split {
+    height: 100%;
+    width: 1px;
+    background-color: #e4e7ed;
+    float: left;
+}
+
+#byteDesk-connected {
+    position: absolute;
+    bottom: 5px;
+    width: 100px;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+#byteDesk-connected-image {
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+

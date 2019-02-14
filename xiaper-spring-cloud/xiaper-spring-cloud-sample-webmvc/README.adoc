@@ -1,0 +1,61 @@
+== bytedesk.org
+
+=== 生成asciidoc
+
+- https://docs.spring.io/spring-restdocs/docs/2.0.3.RELEASE/reference/html5/
+
+=== 将jar发布到 DockerHub
+
+- MAC安装docker
+- brew cask install docker
+
+- Spring官方教程： https://spring.io/guides/gs/spring-boot-docker/
+- dockerfile仓库：https://github.com/spotify/dockerfile-maven
+
+- [DockerHub](https://cloud.docker.com/)
+- docker id: jackning
+- email: 270580156@qq.com
+- password: wUxSk7prRLQM%gW
+
+- xiaper镜像地址
+- https://hub.docker.com/r/xiaper/xiaper-cloud
+
+- 打包：
+- mvn install -Dmaven.test.skip=true dockerfile:build
+- docker login
+- docker push xiaper/xiaper-cloud
+
+- 查看所有镜像
+- docker images
+
+- 删除多余镜像
+- docker image rm IMAGEID
+
+- 搜索镜像
+- docker search xiaper/xiaper-cloud
+
+- 安装镜像
+- docker pull xiaper/xiaper-cloud
+
+- 运行镜像
+// java -jar -Dspring.config.location=/xiaper/application.properties springbootrestdemo.jar
+//- docker run -d -p 8000:8000 xiaper/xiaper
+
+
+===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+
+spring:
+  application:
+    name:
+      eurekaservice
+
+server:
+  port: 8001
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 设置是否从注册中心获取注册信息（缺省true）
+    # 因为这是一个单点的EurekaServer，不需要同步其它EurekaServer节点的数据，故设为false
+    fetch-registry: false
+    # 设置是否将自己作为客户端注册到注册中心（缺省true）
+    # 这里为不需要（查看@EnableEurekaServer注解的源码，会发现它间接用到了@EnableDiscoveryClient）
+    register-with-eureka: false
+    # 在未设置defaultZone的情况下，注册中心在本例中的默认地址就是http://127.0.0.1:1100/eureka/
+    # 但奇怪的是，启动注册中心时，控制台还是会打印这个地址的节点：http://localhost:8761/eureka/
+    # 而实际服务端注册时，要使用1100端口的才能注册成功，8761端口的会注册失败并报告异常
+    serviceUrl:
+      # 实际测试：若修改尾部的eureka为其它的，比如/myeureka，注册中心启动没问题，但服务端在注册时会失败
+      # 报告异常：com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # 注册中心将不可用的实例删除掉
+#    enable-self-preservation: false
+#    wait-time-in-ms-when-sync-empty: 0
+
+
+
+
