@@ -12,7 +12,7 @@
 
 	<groupId>io.xiaper</groupId>
 	<artifactId>xiaper-spring-boot-autoconfigure</artifactId>
-	<version>2.1.2-SNAPSHOT</version>
+	<version>2.1.2</version>
 
 	<name>xiaper-spring-boot-autoconfigure</name>
 	<description>Demo project for Spring Boot</description>

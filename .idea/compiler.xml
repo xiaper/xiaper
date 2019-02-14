@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bytedesk-spring-boot-autoconfigure" />
         <module name="bytedesk-spring-boot-core" />
         <module name="bytedesk-spring-boot-data-jpa" />
         <module name="bytedesk-spring-boot-data-mybatis" />

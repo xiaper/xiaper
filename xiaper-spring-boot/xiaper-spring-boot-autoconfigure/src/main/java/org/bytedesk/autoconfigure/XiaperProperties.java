@@ -13,7 +13,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author bytedesk.org
  */
 @ConfigurationProperties(prefix = "bytedesk")
-public class ByteDeskProperties {
+public class XiaperProperties {
 
     /**
      * 相当于 application.properties 里面配置

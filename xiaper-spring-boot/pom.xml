@@ -20,7 +20,6 @@
 
 	<modules>
 
-		<module>bytedesk-spring-boot-autoconfigure</module>
 		<module>xiaper-spring-boot-autoconfigure</module>
 
 		<module>xiaper-spring-boot-sample-client</module>
@@ -37,7 +36,6 @@
 		<module>xiaper-spring-boot-starter-rest-kefu</module>
 		<module>xiaper-spring-boot-starter-schedule</module>
 		<module>xiaper-spring-boot-starter-wechat</module>
-
 
 		<module>xiaper-spring-boot-core</module>
 		<module>xiaper-spring-boot-data-jpa</module>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/bytedesk-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/bytedesk-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/server.iml" filepath="$PROJECT_DIR$/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/xiaper-cloud.iml" filepath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/xiaper-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" />
