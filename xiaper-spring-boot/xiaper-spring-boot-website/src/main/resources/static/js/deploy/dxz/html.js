@@ -179,7 +179,7 @@
         '                            <!--FIXME: button位置有待优化-->\n' +
         '                            <el-button id="byteDesk-input-pc-send" size="mini" @click="sendTextMessage" :disabled="sendButtonDisabled">发送</el-button>\n' +
         '                            <div id="byteDesk-logo">\n' +
-        '                                <a href="https://www.bytedesk.com" target="_blank">客服软件由萝卜丝提供</a>\n' +
+        '                                <a href="https://www.bytedesk.com" target="_blank">客服软件由虾婆提供</a>\n' +
         '                            </div>\n' +
         '                        </div>\n' +
         '\n' +

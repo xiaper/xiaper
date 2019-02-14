@@ -15,7 +15,7 @@
 	<version>2.1.2-SNAPSHOT</version>
 
 	<name>xiaper-spring-boot-mysql</name>
-	<description>bytedesk.org im server mysql base component</description>
+	<description>xiaper.io im server mysql base component</description>
 
 	<url>http://www.xiaper.io/</url>
 	<licenses>

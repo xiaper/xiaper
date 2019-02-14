@@ -40,7 +40,7 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("萝卜丝·接口")
+                .title("虾婆·接口")
                 .description("RestFull API")
                 .termsOfServiceUrl("https://www.bytedesk.com/")
                 .version("1.0")

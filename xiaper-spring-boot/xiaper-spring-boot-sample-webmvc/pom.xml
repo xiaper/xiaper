@@ -16,7 +16,7 @@
 	<version>2.1.2-SNAPSHOT</version>
 
 	<name>xiaper-spring-boot-sample-webmvc</name>
-	<description>萝卜丝 · bytedesk.org 开源版演示Demo</description>
+	<description>虾婆 · xiaper.io 开源版演示Demo</description>
 
 	<properties>
 		<java.version>1.8</java.version>
