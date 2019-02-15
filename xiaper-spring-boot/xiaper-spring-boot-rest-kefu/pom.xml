@@ -227,10 +227,10 @@
 						<!-- This option will save all original class files (without obfuscate) but obfuscate all
                              in domain and service packages.-->
 						<option>-keep
-							class org.bytedesk.restkefu.RestKefuApplication {
-							public static void main(java.lang.String[]);
-							}
-						</option>
+                            class io.xiaper.restkefu.RestKefuApplication {
+                            public static void main(java.lang.String[]);
+                            }
+                        </option>
 						<!-- This option ignore warnings such as duplicate class definitions and classes in incorrectly
                             named files-->
 						<option>-ignorewarnings</option>

@@ -10,7 +10,6 @@
         <module name="xiaper-spring-boot-autoconfigure" />
         <module name="xiaper-spring-boot-core" />
         <module name="xiaper-spring-boot-data-jpa" />
-        <module name="xiaper-spring-boot-data-mybatis" />
         <module name="xiaper-spring-boot-data-redis" />
         <module name="xiaper-spring-boot-mysql" />
         <module name="xiaper-spring-boot-oracle" />

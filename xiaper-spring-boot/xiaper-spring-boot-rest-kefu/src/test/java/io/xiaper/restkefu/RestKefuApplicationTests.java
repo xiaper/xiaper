@@ -1,0 +1,17 @@
+package io.xiaper.restkefu;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class RestKefuApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}
+

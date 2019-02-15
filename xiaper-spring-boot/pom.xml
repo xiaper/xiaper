@@ -39,7 +39,6 @@
 
 		<module>xiaper-spring-boot-core</module>
 		<module>xiaper-spring-boot-data-jpa</module>
-		<module>xiaper-spring-boot-data-mybatis</module>
 		<module>xiaper-spring-boot-data-redis</module>
 		<module>xiaper-spring-boot-mysql</module>
 		<module>xiaper-spring-boot-push</module>
