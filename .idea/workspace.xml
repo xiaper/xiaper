@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="203e656a-aab3-447d-90f2-8705b8883d6a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ningjinpeng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ningjinpeng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/src/test/java/io/xiaper/autoconfigure/ByteDeskAutoConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/src/test/java/io/xiaper/autoconfigure/AutoConfigurationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-robot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-robot/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-router/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-router/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-im/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-kefu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-kefu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-website/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-website/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="203e656a-aab3-447d-90f2-8705b8883d6a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-kefu/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/target/" />
@@ -72,17 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StatisticTask.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -244,18 +212,6 @@
               <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,104 +223,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-schedule" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
@@ -475,15 +333,15 @@
       <workItem from="1550130114397" duration="989000" />
       <workItem from="1550148892477" duration="95000" />
       <workItem from="1550159904846" duration="2177000" />
-      <workItem from="1550192003365" duration="7025000" />
+      <workItem from="1550192003365" duration="7277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10286000" />
+    <option name="totallyTimeSpent" value="10538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="31" width="1259" height="816" extended-state="0" />
+    <frame x="93" y="31" width="1259" height="816" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50035286" side_tool="true" weight="0.32934132" />
@@ -508,7 +366,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964714" weight="0.2792128" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3032046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29580936" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -752,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
