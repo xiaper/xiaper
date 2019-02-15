@@ -1,4 +1,4 @@
-package io.xiaper.starter;
+package io.xiaper.webflux;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BytedeskSpringBootSampleClientApplicationTests {
+public class WebfluxApplicationTests {
 
 	@Test
 	public void contextLoads() {
