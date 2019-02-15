@@ -343,6 +343,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="30" width="1253" height="875" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50035286" side_tool="true" weight="0.32934132" />
