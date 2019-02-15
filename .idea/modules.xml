@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/bytedesk-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/server.iml" filepath="$PROJECT_DIR$/.idea/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/xiaper-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/xiaper-spring-boot-autoconfigure.iml" />
@@ -10,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/xiaper-spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/xiaper-spring-boot-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/xiaper-spring-boot-data-redis.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/xiaper-spring-boot-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/xiaper-spring-boot-mysql.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/xiaper-spring-boot-mysql.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-oracle/xiaper-spring-boot-oracle.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-oracle/xiaper-spring-boot-oracle.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-push/xiaper-spring-boot-push.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-push/xiaper-spring-boot-push.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/xiaper-spring-boot-rest.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/xiaper-spring-boot-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/xiaper-spring-boot-rest-im.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/xiaper-spring-boot-rest-im.iml" />

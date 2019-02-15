@@ -59,12 +59,12 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>io.xiaper</groupId>
-			<artifactId>xiaper-spring-boot-router-rabbitmq</artifactId>
-			<version>2.1.2-SNAPSHOT</version>
-			<scope>provided</scope>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>io.xiaper</groupId>-->
+			<!--<artifactId>xiaper-spring-boot-router-rabbitmq</artifactId>-->
+			<!--<version>2.1.2-SNAPSHOT</version>-->
+			<!--<scope>provided</scope>-->
+		<!--</dependency>-->
 
 		<dependency>
 			<groupId>io.xiaper</groupId>

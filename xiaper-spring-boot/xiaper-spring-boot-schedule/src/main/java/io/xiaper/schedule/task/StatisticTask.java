@@ -3,6 +3,8 @@ package io.xiaper.schedule.task;
 
 import io.xiaper.jpa.constant.*;
 import io.xiaper.jpa.model.*;
+import io.xiaper.jpa.model.Queue;
+import io.xiaper.jpa.model.Thread;
 import io.xiaper.jpa.repository.*;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;

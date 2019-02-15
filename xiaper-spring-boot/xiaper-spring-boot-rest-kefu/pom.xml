@@ -31,9 +31,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git@github.com/Bytedesk/bytedesk-server.git</connection>
-		<developerConnection>scm:git:git@github.com/Bytedesk/bytedesk-server.git</developerConnection>
-		<url>git@github.com/Bytedesk/bytedesk-server</url>
+		<connection>scm:git:git@github.com/xiaper/server.git</connection>
+		<developerConnection>scm:git:git@github.com/xiaper/server.git</developerConnection>
+		<url>git@github.com/xiaper/server</url>
 	</scm>
 
 	<properties>
