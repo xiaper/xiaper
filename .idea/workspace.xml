@@ -1,51 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="203e656a-aab3-447d-90f2-8705b8883d6a" name="Default" comment="">
+    <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_im_2_1_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_kefu_2_1_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaper-spring-boot-sample/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaper-spring-boot-sample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaper-spring-boot-starter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xiaper-spring-boot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ningjinpeng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_grpc_proto_google_common_protos_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_context_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_core_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_netty_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_protobuf_lite_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_grpc_grpc_stub_1_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_api_0_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_opencensus_opencensus_contrib_grpc_metrics_0_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_async_3_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_reactivestreams_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_reactive_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_integration_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/src/main/java/io/xiaper/starter/ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/src/test/java/io/xiaper/starter/ClientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/src/main/java/io/xiaper/bytedeskspringbootsamplerestim/BytedeskSpringBootSampleRestImApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/src/test/java/io/xiaper/bytedeskspringbootsamplerestim/BytedeskSpringBootSampleRestImApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/src/main/java/io/xiaper/bytedeskspringbootprosamplerestkefu/BytedeskSpringBootProSampleRestKefuApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/src/test/java/io/xiaper/bytedeskspringbootprosamplerestkefu/BytedeskSpringBootProSampleRestKefuApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/src/main/java/io/xiaper/bytedeskspringbootsampleschedule/BytedeskSpringBootSampleScheduleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/src/test/java/io/xiaper/bytedeskspringbootsampleschedule/BytedeskSpringBootSampleScheduleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/WebFluxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/config/RouterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/dao/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/handler/TimeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/websocket/MyWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/test/java/io/xiaper/webflux/WebfluxApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/annotation.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/api.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/getting-started.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/index.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/introduction.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/SpringBootWebMvcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/AuthorizationServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/SimpleCorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/i18n/messages_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/error/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/test/java/com/xiaper/webmvc/ApiDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/test/java/com/xiaper/webmvc/GettingStartedDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-im/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-im/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-im/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-kefu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-kefu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-kefu/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-rest-im/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-rest-im/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-rest-kefu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-rest-kefu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-schedule/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-schedule/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-wechat/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-wechat/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/readme.md" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-kefu/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-wechat/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-oracle/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-kefu/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-config/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-common/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-schedule/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-im/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-website/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-wechat/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-community/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-im/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-schedule/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-security/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-client/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-website/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-robot/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-rest-kefu/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-rest-im/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-starter-kefu/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-rest-im/target/" />
-    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-router/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-common/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-security/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-push/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-wechat/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-router/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-community/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-im/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-robot/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-config/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-kefu/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/xiaper-spring-boot-sample-rest-im/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/xiaper-spring-boot-sample-rest-kefu/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/xiaper-spring-boot-sample-webflux/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/xiaper-spring-boot-sample-schedule/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/xiaper-spring-boot-sample-webmvc/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/xiaper-spring-boot-sample-client/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter-rest-kefu/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter-rest-im/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter-im/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter-wechat/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter-kefu/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter-schedule/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,32 +202,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf>
+      <file leaf-file-name="xiaper-server.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaper-server.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xiaper-spring-boot-starter.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-sample/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starter/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>萝卜丝</find>
-      <find>bytedesk.org</find>
-      <find>Bytedesk/bytedesk-server.git</find>
-      <find>Bytedesk/bytedesk-server</find>
-      <find>redisService</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>虾婆</replace>
-      <replace>xiaper.io</replace>
-      <replace>xiaper/server.git</replace>
-      <replace>xiaper/server</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,14 +273,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-sample/pom.xml" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/src/main/java/com/xiaper/webmvc/SpringCloudWebMvcApplication.java" />
-        <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/SpringBootWebMvcApplication.java" />
-        <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java" />
-        <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>
@@ -142,10 +307,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
+    <option name="x" value="51" />
     <option name="y" value="23" />
-    <option name="width" value="1253" />
-    <option name="height" value="908" />
+    <option name="width" value="1225" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -155,6 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,26 +328,44 @@
               <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.34759358" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xiaper-spring-boot-starter" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -195,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootWebMvcApplication">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -217,64 +401,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="BytedeskSpringBootProSampleRestKefuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-sample-rest-kefu" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootprosamplerestkefu.BytedeskSpringBootProSampleRestKefuApplication" />
-    </configuration>
-    <configuration name="BytedeskSpringBootPushApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-push" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootpush.BytedeskSpringBootPushApplication" />
-    </configuration>
-    <configuration name="BytedeskSpringBootSampleRestImApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-sample-rest-im" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootsamplerestim.BytedeskSpringBootSampleRestImApplication" />
-    </configuration>
-    <configuration name="BytedeskSpringBootSampleScheduleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-sample-schedule" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootsampleschedule.BytedeskSpringBootSampleScheduleApplication" />
-    </configuration>
-    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-sample-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.starter.ClientApplication" />
-    </configuration>
-    <configuration name="RouterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-router" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.router.RouterApplication" />
-    </configuration>
-    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-security" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.starterim.SecurityApplication" />
-    </configuration>
-    <configuration name="SpringBootWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xiaper-spring-boot-sample-webmvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaper.webmvc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webmvc.SpringBootWebMvcApplication" />
-    </configuration>
-    <configuration name="SpringCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-cloud-config" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.config.SpringCloudConfigApplication" />
-    </configuration>
-    <configuration name="SpringCloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-cloud-eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.eureka.SpringCloudEurekaApplication" />
-    </configuration>
-    <configuration name="SpringCloudWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-cloud-sample-webmvc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webmvc.SpringCloudWebMvcApplication" />
-    </configuration>
-    <configuration name="WebCommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-web-community" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.community.WebCommunityApplication" />
-    </configuration>
-    <configuration name="WebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="xiaper-spring-boot-sample-webflux" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webflux.WebFluxApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -298,93 +424,64 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.SpringBootWebMvcApplication" />
-      <item itemvalue="Spring Boot.BytedeskSpringBootSampleScheduleApplication" />
-      <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
-      <item itemvalue="Spring Boot.SpringCloudWebMvcApplication" />
-      <item itemvalue="Spring Boot.BytedeskSpringBootPushApplication" />
-      <item itemvalue="Spring Boot.BytedeskSpringBootProSampleRestKefuApplication" />
-      <item itemvalue="Spring Boot.BytedeskSpringBootSampleRestImApplication" />
-      <item itemvalue="Spring Boot.WebFluxApplication" />
-      <item itemvalue="Spring Boot.RouterApplication" />
-      <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
-      <item itemvalue="Spring Boot.SecurityApplication" />
-      <item itemvalue="Spring Boot.ClientApplication" />
-      <item itemvalue="Spring Boot.WebCommunityApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.SpringBootWebMvcApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="203e656a-aab3-447d-90f2-8705b8883d6a" name="Default" comment="" />
-      <created>1550130112542</created>
+      <changelist id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="" />
+      <created>1550276374176</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550130112542</updated>
-      <workItem from="1550130114397" duration="989000" />
-      <workItem from="1550148892477" duration="95000" />
-      <workItem from="1550159904846" duration="2177000" />
-      <workItem from="1550192003365" duration="7277000" />
-      <workItem from="1550235030768" duration="553000" />
-      <workItem from="1550241432918" duration="12000" />
-      <workItem from="1550244001077" duration="1045000" />
-      <workItem from="1550275572586" duration="98000" />
-      <workItem from="1550275762197" duration="79000" />
+      <updated>1550276374176</updated>
+      <workItem from="1550276376081" duration="317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12325000" />
+    <option name="totallyTimeSpent" value="317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="23" width="1253" height="908" extended-state="0" />
+    <frame x="51" y="23" width="1225" height="950" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50035286" side_tool="true" weight="0.32934132" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.27020508" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964714" weight="0.2792128" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25681254" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" order="3" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.29740793" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.284869" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="BPMNPalette" />
+      <window_info id="Learn" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,197 +491,45 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/SpringBootWebMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-cloud/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xiaper-server.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starter/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-sample/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="184">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/README.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/src/main/java/io/xiaper/autoconfigure/ByteDeskAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/src/main/java/com/xiaper/webmvc/SpringCloudWebMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webflux/src/main/java/com/xiaper/webflux/WebFluxApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/src/main/java/io/xiaper/autoconfigure/ByteDeskProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/SpringBootWebMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/a.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/c.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/d.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/e.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/f.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/g.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/h.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/i.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/b/a/b.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/b/a/a.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/b/b.class" />
-    <entry file="jar://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/bytedesk-spring-boot-pro-router-rabbitmq-proguard-2.1.2-SNAPSHOT.jar!/org/bytedesk/mq/service/b.class" />
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/config/ZooKeeperConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/WeChatTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Python 3.7 (ByteDesk) interpreter library</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -596,23 +541,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>xiaper-spring-boot-schedule</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.34759358" />
               </list>
             </option>
           </splitter-proportions>
@@ -632,7 +565,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

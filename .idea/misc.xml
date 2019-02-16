@@ -7,8 +7,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-sample/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-starters/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

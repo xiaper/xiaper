@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bytedesk-spring-boot-autoconfigure" />
         <module name="xiaper-spring-boot-autoconfigure" />
         <module name="xiaper-spring-boot-core" />
         <module name="xiaper-spring-boot-data-jpa" />
         <module name="xiaper-spring-boot-data-redis" />
         <module name="xiaper-spring-boot-mysql" />
-        <module name="xiaper-spring-boot-oracle" />
         <module name="xiaper-spring-boot-push" />
         <module name="xiaper-spring-boot-rest" />
         <module name="xiaper-spring-boot-rest-im" />
@@ -46,37 +44,38 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bytedesk-spring-boot-autoconfigure" target="1.8" />
-      <module name="server" target="1.5" />
       <module name="xiaper-spring-boot" target="1.5" />
       <module name="xiaper-spring-boot-autoconfigure" target="1.8" />
       <module name="xiaper-spring-boot-core" target="1.8" />
       <module name="xiaper-spring-boot-data-jpa" target="1.8" />
-      <module name="xiaper-spring-boot-data-mybatis" target="1.8" />
       <module name="xiaper-spring-boot-data-redis" target="1.8" />
       <module name="xiaper-spring-boot-mysql" target="1.8" />
-      <module name="xiaper-spring-boot-oracle" target="1.8" />
       <module name="xiaper-spring-boot-push" target="1.8" />
       <module name="xiaper-spring-boot-rest" target="1.8" />
       <module name="xiaper-spring-boot-rest-im" target="1.8" />
       <module name="xiaper-spring-boot-rest-kefu" target="1.8" />
       <module name="xiaper-spring-boot-robot" target="1.8" />
       <module name="xiaper-spring-boot-router" target="1.8" />
+      <module name="xiaper-spring-boot-sample" target="1.5" />
       <module name="xiaper-spring-boot-sample-client" target="1.8" />
       <module name="xiaper-spring-boot-sample-rest-im" target="1.8" />
       <module name="xiaper-spring-boot-sample-rest-kefu" target="1.8" />
       <module name="xiaper-spring-boot-sample-schedule" target="1.8" />
       <module name="xiaper-spring-boot-sample-webflux" target="1.8" />
       <module name="xiaper-spring-boot-sample-webmvc" target="1.8" />
+      <module name="xiaper-spring-boot-samples" target="1.5" />
       <module name="xiaper-spring-boot-schedule" target="1.8" />
       <module name="xiaper-spring-boot-security" target="1.8" />
       <module name="xiaper-spring-boot-starter" target="1.8" />
+      <module name="xiaper-spring-boot-starter (1)" target="1.5" />
+      <module name="xiaper-spring-boot-starter (2)" target="1.8" />
       <module name="xiaper-spring-boot-starter-im" target="1.8" />
       <module name="xiaper-spring-boot-starter-kefu" target="1.8" />
       <module name="xiaper-spring-boot-starter-rest-im" target="1.8" />
       <module name="xiaper-spring-boot-starter-rest-kefu" target="1.8" />
       <module name="xiaper-spring-boot-starter-schedule" target="1.8" />
       <module name="xiaper-spring-boot-starter-wechat" target="1.8" />
+      <module name="xiaper-spring-boot-starters" target="1.5" />
       <module name="xiaper-spring-boot-web-common" target="1.8" />
       <module name="xiaper-spring-boot-web-community" target="1.8" />
       <module name="xiaper-spring-boot-web-im" target="1.8" />
@@ -87,6 +86,7 @@
       <module name="xiaper-spring-cloud-config" target="1.8" />
       <module name="xiaper-spring-cloud-eureka" target="1.8" />
       <module name="xiaper-spring-cloud-sample-webmvc" target="1.8" />
+      <module name="xiaper.io-server" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

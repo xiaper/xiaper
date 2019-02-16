@@ -22,20 +22,6 @@
 
 		<module>xiaper-spring-boot-autoconfigure</module>
 
-		<module>xiaper-spring-boot-sample-client</module>
-		<module>xiaper-spring-boot-sample-rest-im</module>
-		<module>xiaper-spring-boot-sample-rest-kefu</module>
-		<module>xiaper-spring-boot-sample-schedule</module>
-		<module>xiaper-spring-boot-sample-webmvc</module>
-		<module>xiaper-spring-boot-sample-webflux</module>
-
-		<module>xiaper-spring-boot-starter</module>
-		<module>xiaper-spring-boot-starter-im</module>
-		<module>xiaper-spring-boot-starter-kefu</module>
-		<module>xiaper-spring-boot-starter-rest-im</module>
-		<module>xiaper-spring-boot-starter-rest-kefu</module>
-		<module>xiaper-spring-boot-starter-schedule</module>
-		<module>xiaper-spring-boot-starter-wechat</module>
 
 		<module>xiaper-spring-boot-core</module>
 		<module>xiaper-spring-boot-data-jpa</module>
