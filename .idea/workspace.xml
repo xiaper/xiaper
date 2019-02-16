@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="203e656a-aab3-447d-90f2-8705b8883d6a" name="Default" comment="" />
+    <list default="true" id="203e656a-aab3-447d-90f2-8705b8883d6a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-kefu/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/target/" />
@@ -50,7 +54,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -96,6 +110,7 @@
         <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/src/main/java/io/xiaper/schedule/task/StatisticTask.java" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -126,11 +141,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="109" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="70" />
+    <option name="y" value="23" />
     <option name="width" value="1253" />
-    <option name="height" value="875" />
+    <option name="height" value="908" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,106 +155,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -259,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringBootWebMvcApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -282,6 +218,34 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="BytedeskSpringBootProSampleRestKefuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-sample-rest-kefu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootprosamplerestkefu.BytedeskSpringBootProSampleRestKefuApplication" />
+    </configuration>
+    <configuration name="BytedeskSpringBootPushApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-push" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootpush.BytedeskSpringBootPushApplication" />
+    </configuration>
+    <configuration name="BytedeskSpringBootSampleRestImApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-sample-rest-im" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootsamplerestim.BytedeskSpringBootSampleRestImApplication" />
+    </configuration>
+    <configuration name="BytedeskSpringBootSampleScheduleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-sample-schedule" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.bytedeskspringbootsampleschedule.BytedeskSpringBootSampleScheduleApplication" />
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-sample-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.starter.ClientApplication" />
+    </configuration>
+    <configuration name="RouterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-router" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.router.RouterApplication" />
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.starterim.SecurityApplication" />
+    </configuration>
     <configuration name="SpringBootWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xiaper-spring-boot-sample-webmvc" />
       <extension name="coverage">
@@ -291,6 +255,26 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webmvc.SpringBootWebMvcApplication" />
+    </configuration>
+    <configuration name="SpringCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-cloud-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.config.SpringCloudConfigApplication" />
+    </configuration>
+    <configuration name="SpringCloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.eureka.SpringCloudEurekaApplication" />
+    </configuration>
+    <configuration name="SpringCloudWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-cloud-sample-webmvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webmvc.SpringCloudWebMvcApplication" />
+    </configuration>
+    <configuration name="WebCommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-web-community" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.xiaper.community.WebCommunityApplication" />
+    </configuration>
+    <configuration name="WebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xiaper-spring-boot-sample-webflux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webflux.WebFluxApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -314,6 +298,21 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringBootWebMvcApplication" />
+      <item itemvalue="Spring Boot.BytedeskSpringBootSampleScheduleApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
+      <item itemvalue="Spring Boot.SpringCloudWebMvcApplication" />
+      <item itemvalue="Spring Boot.BytedeskSpringBootPushApplication" />
+      <item itemvalue="Spring Boot.BytedeskSpringBootProSampleRestKefuApplication" />
+      <item itemvalue="Spring Boot.BytedeskSpringBootSampleRestImApplication" />
+      <item itemvalue="Spring Boot.WebFluxApplication" />
+      <item itemvalue="Spring Boot.RouterApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConfigApplication" />
+      <item itemvalue="Spring Boot.SecurityApplication" />
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.WebCommunityApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SpringBootWebMvcApplication" />
@@ -335,14 +334,18 @@
       <workItem from="1550159904846" duration="2177000" />
       <workItem from="1550192003365" duration="7277000" />
       <workItem from="1550235030768" duration="553000" />
+      <workItem from="1550241432918" duration="12000" />
+      <workItem from="1550244001077" duration="1045000" />
+      <workItem from="1550275572586" duration="98000" />
+      <workItem from="1550275762197" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11091000" />
+    <option name="totallyTimeSpent" value="12325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="30" width="1253" height="875" extended-state="1" />
+    <frame x="70" y="23" width="1253" height="908" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -363,11 +366,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964714" weight="0.2792128" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27332783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25681254" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -391,6 +394,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -409,13 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -542,6 +545,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -6,10 +6,9 @@
 	<groupId>io.xiaper</groupId>
 	<artifactId>server</artifactId>
 	<version>2.1.2</version>
-
 	<packaging>pom</packaging>
-	<name>Xiaper Server</name>
 
+	<name>Xiaper Server</name>
 	<description>虾婆·xiaper.io</description>
 
 	<properties>
