@@ -22,30 +22,6 @@
 
 		<module>xiaper-spring-boot-autoconfigure</module>
 
-
-		<module>xiaper-spring-boot-core</module>
-		<module>xiaper-spring-boot-data-jpa</module>
-		<module>xiaper-spring-boot-data-redis</module>
-		<module>xiaper-spring-boot-mysql</module>
-		<module>xiaper-spring-boot-push</module>
-
-		<module>xiaper-spring-boot-rest</module>
-		<module>xiaper-spring-boot-rest-im</module>
-		<module>xiaper-spring-boot-rest-kefu</module>
-
-		<module>xiaper-spring-boot-robot</module>
-		<module>xiaper-spring-boot-router</module>
-
-		<module>xiaper-spring-boot-schedule</module>
-		<module>xiaper-spring-boot-security</module>
-
-		<module>xiaper-spring-boot-web-common</module>
-		<module>xiaper-spring-boot-web-community</module>
-		<module>xiaper-spring-boot-web-im</module>
-		<module>xiaper-spring-boot-web-kefu</module>
-		<module>xiaper-spring-boot-website</module>
-		<module>xiaper-spring-boot-wechat</module>
-
 	</modules>
 
 </project>
