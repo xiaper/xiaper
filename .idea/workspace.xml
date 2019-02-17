@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webflux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-data-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-mysql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-kefu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-im/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-im/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-kefu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-web-kefu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-website/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-website/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-wechat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-cloud/xiaper-spring-cloud-sample-webmvc/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/target/" />
@@ -67,16 +91,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>2.1.2.RELEASE</find>
       <find>2.1.2-SNAPSHOT</find>
+      <find>&lt;version&gt;2.1.3-SNAPSHOT</find>
     </findStrings>
     <replaceStrings>
       <replace>2.1.3.RELEASE</replace>
       <replace>2.1.3-SNAPSHOT</replace>
+      <replace>&lt;version&gt;2.1.3.RELEASE</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -108,6 +144,7 @@
         <option value="$PROJECT_DIR$/xiaper-spring-boot-starters/pom.xml" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-wechat/pom.xml" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml" />
       </list>
     </option>
   </component>
@@ -139,10 +176,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="25" />
-    <option name="width" value="1380" />
-    <option name="height" value="928" />
+    <option name="x" value="87" />
+    <option name="y" value="192" />
+    <option name="width" value="1227" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,6 +204,12 @@
             <path>
               <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper-spring-boot-autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
               <item name="xiaper-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -174,13 +217,18 @@
               <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
               <item name="xiaper-spring-boot-starters" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaper-spring-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,15 +317,16 @@
       <updated>1550276374176</updated>
       <workItem from="1550276376081" duration="1266000" />
       <workItem from="1550333954125" duration="1225000" />
-      <workItem from="1550374339422" duration="612000" />
+      <workItem from="1550374339422" duration="1362000" />
+      <workItem from="1550377479905" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3103000" />
+    <option name="totallyTimeSpent" value="3935000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="25" width="1380" height="928" extended-state="0" />
+    <frame x="82" y="103" width="1366" height="805" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.5092937" />
@@ -301,17 +350,17 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27653214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26435044" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -381,6 +430,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-autoconfigure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="26" />
         </state>
       </provider>
     </entry>
