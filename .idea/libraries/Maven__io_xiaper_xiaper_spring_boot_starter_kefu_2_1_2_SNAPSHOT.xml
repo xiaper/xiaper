@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.xiaper:xiaper-spring-boot-starter-kefu:2.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/pom.xml!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/xiaper-spring-boot-starter-kefu-2.1.2-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/xiaper-spring-boot-starter-kefu-2.1.2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
