@@ -84,7 +84,7 @@
       <module name="xiaper-spring-boot-wechat" target="1.8" />
       <module name="xiaper-spring-cloud" target="1.5" />
       <module name="xiaper-spring-cloud-config" target="1.8" />
-      <module name="xiaper-spring-cloud-eureka" target="1.5" />
+      <module name="xiaper-spring-cloud-eureka" target="1.8" />
       <module name="xiaper-spring-cloud-sample-webmvc" target="1.8" />
       <module name="xiaper.io-server" target="1.5" />
     </bytecodeTargetLevel>
