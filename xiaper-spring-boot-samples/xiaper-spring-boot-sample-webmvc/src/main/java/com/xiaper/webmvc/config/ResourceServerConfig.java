@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
  *
  * HttpMethod.OPTIONS,
  *
- * @author bytedesk.com
+ * @author xiaper.io
  */
 @Configuration
 @EnableResourceServer

@@ -13,10 +13,10 @@
 	<groupId>io.xiaper</groupId>
 	<!--<artifactId>xiaper</artifactId>-->
 	<artifactId>xiaper-spring-boot-sample-webmvc</artifactId>
-	<version>2.1.3.RELEASE</version>
+	<version>2.1.4.RELEASE</version>
 
 	<name>xiaper-spring-boot-sample-webmvc</name>
-	<description>虾婆 · xiaper.io 开源版演示Demo</description>
+	<description>萝卜丝 · bytedesk.org 开源版演示Demo</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -40,17 +40,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
-				<!-- 使用jetty 替换tomcat -->
+				<!-- 使用undertow 替换tomcat -->
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- 使用jetty 替换tomcat -->
+		<!-- 使用undertow 替换tomcat -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jetty</artifactId>
+			<artifactId>spring-boot-starter-undertow</artifactId>
 		</dependency>
 
 		<!--授权oauth-->
@@ -64,7 +64,7 @@
 		<dependency>
 			<groupId>org.springframework.security.oauth.boot</groupId>
 			<artifactId>spring-security-oauth2-autoconfigure</artifactId>
-			<version>2.1.3.RELEASE</version>
+			<version>2.1.2.RELEASE</version>
 		</dependency>
 
 		<!--html thymeleaf 模板引擎-->
@@ -141,22 +141,27 @@
 			<artifactId>spring-session-data-redis</artifactId>
 		</dependency>
 
+		<!--TODO: 缓存-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+
 
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
-
-		<!--bytedesk im-->
+		<!--im-->
 		<dependency>
 			<groupId>io.xiaper</groupId>
 			<artifactId>xiaper-spring-boot-starter-im</artifactId>
-			<version>2.1.3.RELEASE</version>
+			<version>2.1.4.RELEASE</version>
 		</dependency>
 
-		<!--bytedesk kefu-->
+		<!--kefu-->
 		<dependency>
 			<groupId>io.xiaper</groupId>
 			<artifactId>xiaper-spring-boot-starter-kefu</artifactId>
-			<version>2.1.3.RELEASE</version>
+			<version>2.1.4.RELEASE</version>
 		</dependency>
 
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
@@ -197,26 +202,49 @@
 			<version>2.9.0</version>
 		</dependency>
 
-		<!-- Swagger 2 构建RestFull API文档  -->
+		<!--protobuf-->
 		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>2.9.2</version>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>3.6.1</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java-util -->
+		<!--protobuf-java-util 是protobuf相关的工具类-->
 		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.9.2</version>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java-util</artifactId>
+			<version>3.6.1</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.googlecode.protobuf-java-format/protobuf-java-format -->
+		<!--protobuf-java-format 是可以将protobuf转换为Json格式转换器-->
+		<dependency>
+			<groupId>com.googlecode.protobuf-java-format</groupId>
+			<artifactId>protobuf-java-format</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<!-- Swagger 2 构建RestFull API文档  -->
+		<!--<dependency>-->
+			<!--<groupId>io.springfox</groupId>-->
+			<!--<artifactId>springfox-swagger2</artifactId>-->
+			<!--<version>2.9.2</version>-->
+		<!--</dependency>-->
+
+		<!--<dependency>-->
+			<!--<groupId>io.springfox</groupId>-->
+			<!--<artifactId>springfox-swagger-ui</artifactId>-->
+			<!--<version>2.9.2</version>-->
+		<!--</dependency>-->
 
 		<!--生成离线文档-->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-staticdocs</artifactId>
-			<version>2.6.1</version>
-			<scope>test</scope>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>io.springfox</groupId>-->
+			<!--<artifactId>springfox-staticdocs</artifactId>-->
+			<!--<version>2.6.1</version>-->
+			<!--<scope>test</scope>-->
+		<!--</dependency>-->
 
 		<!--Spring REST Docs-->
 		<dependency>

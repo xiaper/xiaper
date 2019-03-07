@@ -4,4 +4,4 @@ ___  __|__|____  ______   ___________
  >    <|  |/ __ \|  |_> >  ___/|  | \/
 /__/\_ \__(____  /   __/ \___  >__|
       \/       \/|__|        \/
-${AnsiColor.YELLOW} :: Based On Spring Boot :: ${spring-boot.formatted-version}
+${AnsiColor.BRIGHT_YELLOW} :: Based On Spring Boot :: ${spring-boot.formatted-version}

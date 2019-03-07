@@ -5,7 +5,7 @@
 
 	<groupId>io.xiaper</groupId>
 	<artifactId>xiaper-spring-boot-starters</artifactId>
-	<version>2.1.2</version>
+	<version>2.1.4.RELEASE</version>
 
 	<packaging>pom</packaging>
 	<name>XiaPer Spring Boot Starter Projects</name>
@@ -23,10 +23,6 @@
 		<module>xiaper-spring-boot-starter</module>
 		<module>xiaper-spring-boot-starter-im</module>
 		<module>xiaper-spring-boot-starter-kefu</module>
-		<module>xiaper-spring-boot-starter-rest-im</module>
-		<module>xiaper-spring-boot-starter-rest-kefu</module>
-		<module>xiaper-spring-boot-starter-schedule</module>
-		<module>xiaper-spring-boot-starter-wechat</module>
 
 	</modules>
 

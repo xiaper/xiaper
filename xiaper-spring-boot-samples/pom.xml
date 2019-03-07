@@ -20,12 +20,7 @@
 
 	<modules>
 
-		<module>xiaper-spring-boot-sample-client</module>
-		<module>xiaper-spring-boot-sample-rest-im</module>
-		<module>xiaper-spring-boot-sample-rest-kefu</module>
-		<module>xiaper-spring-boot-sample-schedule</module>
 		<module>xiaper-spring-boot-sample-webmvc</module>
-		<module>xiaper-spring-boot-sample-webflux</module>
 
 	</modules>
 

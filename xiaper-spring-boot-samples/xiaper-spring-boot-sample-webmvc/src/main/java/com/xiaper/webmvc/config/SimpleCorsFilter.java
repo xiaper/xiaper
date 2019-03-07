@@ -22,7 +22,7 @@ import java.util.List;
  *
  * https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#headers-frame-options
  *
- * @author bytedesk.com
+ * @author xiaper.io
  */
 @Component
 public class SimpleCorsFilter implements Filter {

@@ -21,7 +21,7 @@ import javax.sql.DataSource;
 /**
  * OAuth2 授权服务器
  *
- * @author bytedesk.com
+ * @author xiaper.io
  */
 @Configuration
 @EnableAuthorizationServer

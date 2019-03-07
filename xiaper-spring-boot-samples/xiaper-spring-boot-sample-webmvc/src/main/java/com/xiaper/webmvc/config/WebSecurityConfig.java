@@ -1,6 +1,6 @@
 package com.xiaper.webmvc.config;
 
-import org.bytedesk.mq.service.UserService;
+import io.xiaper.mq.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,7 +23,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
  * http://www.baeldung.com/spring-security-expressions-basic
  * https://docs.spring.io/spring-security/site/docs/current/reference/html/el-access.html
  *
- * @author bytedesk.com
+ * @author xiaper.io
  */
 @Configuration
 @EnableWebSecurity

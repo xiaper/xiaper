@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * 生成asciidoc方法：
  * 1. 直接运行 mvn package 即可
  *
- * @author bytedesk.com on 2019/1/8
+ * @author xiaper.io on 2019/1/8
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -15,7 +15,7 @@ import java.util.Locale;
 /**
  * 配置
  *
- * @author bytedesk.com
+ * @author xiaper.io
  */
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
