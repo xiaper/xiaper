@@ -55,6 +55,7 @@ Thank you to all the people who already contributed to Xiaper!
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2013-present, JinPeng(Jack) Ning
+Copyright (c) 2013-present, JinPeng(Jack) Ning, 270580156@qq.com
+
 
   
