@@ -204,7 +204,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,6 +297,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -422,11 +422,12 @@
       <workItem from="1552107153911" duration="1403000" />
       <workItem from="1552125249513" duration="3069000" />
       <workItem from="1552129264795" duration="327000" />
+      <workItem from="1552130334242" duration="176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19037000" />
+    <option name="totallyTimeSpent" value="19213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,7 +439,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="96" y="211" width="1335" height="726" extended-state="0" />
+    <frame x="69" y="165" width="1335" height="726" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007072" side_tool="true" weight="0.3727399" />
@@ -462,7 +463,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32853404" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30549112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39133796" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -784,20 +785,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql/bytedesk_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="802" column="2" lean-forward="true" selection-start-line="802" selection-start-column="2" selection-end-line="802" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/bytedesk_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1556">
-          <caret line="137" column="76" selection-start-line="137" selection-start-column="72" selection-end-line="137" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/bytedesk_table.sql" />
+    <entry file="file://$PROJECT_DIR$/sql/bytedesk_data.sql" />
   </component>
   <component name="masterDetails">
     <states>
