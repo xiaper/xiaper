@@ -86,23 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="618">
-                <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="90">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -236,8 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,6 +318,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,11 +437,12 @@
       <workItem from="1552014482646" duration="3075000" />
       <workItem from="1552023344039" duration="7000" />
       <workItem from="1552026552378" duration="146000" />
+      <workItem from="1552101083549" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14095000" />
+    <option name="totallyTimeSpent" value="14122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +479,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32853404" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.50441766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31485945" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -514,6 +503,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/ClusterWebMvcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="900">
+            <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -722,20 +749,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="618">
-            <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+          <first_editor relative-caret-position="80">
+            <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="52" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
