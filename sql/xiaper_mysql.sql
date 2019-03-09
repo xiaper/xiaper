@@ -1,9 +1,9 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2019-03-09 09:52:44
+-- 生成日期： 2019-03-09 10:58:57
 -- 服务器版本： 5.7.18
 -- PHP 版本： 7.1.23
 
@@ -126,19 +126,6 @@ CREATE TABLE `app` (
   `app_version` varchar(255) DEFAULT NULL,
   `pem_password` varchar(255) DEFAULT NULL,
   `pem_path` varchar(255) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
--- 表的结构 `area`
---
-
-CREATE TABLE `area` (
-  `id` bigint(20) NOT NULL,
-  `area_id` varchar(255) DEFAULT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `city_id` bigint(20) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -887,18 +874,6 @@ CREATE TABLE `post_keyword` (
   `post_id` bigint(20) NOT NULL,
   `tag_id` bigint(20) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
--- 表的结构 `province`
---
-
-CREATE TABLE `province` (
-  `id` bigint(20) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `pid` varchar(255) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -1793,13 +1768,6 @@ ALTER TABLE `app`
   ADD KEY `FKpmajekr3d4un6x04ggbllfgol` (`users_id`);
 
 --
--- 表的索引 `area`
---
-ALTER TABLE `area`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `FK7gpdo1p011b4rddf8gbf3afqx` (`city_id`);
-
---
 -- 表的索引 `article`
 --
 ALTER TABLE `article`
@@ -2146,12 +2114,6 @@ ALTER TABLE `post_category`
 ALTER TABLE `post_keyword`
   ADD PRIMARY KEY (`post_id`,`tag_id`),
   ADD KEY `FK6cj15behpd08v49ec97kvbq2b` (`tag_id`);
-
---
--- 表的索引 `province`
---
-ALTER TABLE `province`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- 表的索引 `questionnaire`
