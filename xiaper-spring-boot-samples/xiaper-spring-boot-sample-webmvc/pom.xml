@@ -46,10 +46,10 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- 使用undertow 替换tomcat -->
+		<!-- 使用jetty 替换tomcat -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-undertow</artifactId>
+			<artifactId>spring-boot-starter-jetty</artifactId>
 		</dependency>
 
 		<!--授权oauth-->
