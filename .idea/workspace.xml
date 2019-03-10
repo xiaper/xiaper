@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/sql/xiaper_mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/xiaper_mysql.sql" afterDir="false" />
-    </list>
+    <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/target/" />
@@ -81,25 +79,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="xiaper_mysql.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql/xiaper_mysql.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1906">
-              <caret line="5498" column="25" selection-start-line="5498" selection-start-column="9" selection-end-line="5498" selection-end-column="25" />
-              <folding>
-                <element signature="e#55349#106564#0" />
-                <element signature="e#106566#157776#0" />
-                <element signature="e#157778#208941#0" />
-                <element signature="e#208943#260112#0" />
-                <element signature="e#260114#311339#0" />
-                <element signature="e#311341#331050#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,6 +90,8 @@
       <find>oauth_client_details</find>
       <find>194670</find>
       <find>city</find>
+      <find>article_category</find>
+      <find>article_key</find>
     </findStrings>
     <replaceStrings>
       <replace>2.1.3.RELEASE</replace>
@@ -213,8 +195,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="81" />
     <option name="y" value="76" />
-    <option name="width" value="1453" />
-    <option name="height" value="870" />
+    <option name="width" value="1312" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -230,11 +212,6 @@
             <path>
               <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
@@ -449,12 +426,12 @@
       <workItem from="1552125249513" duration="3069000" />
       <workItem from="1552129264795" duration="327000" />
       <workItem from="1552130334242" duration="176000" />
-      <workItem from="1552130720862" duration="247000" />
+      <workItem from="1552130720862" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19460000" />
+    <option name="totallyTimeSpent" value="19624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,8 +443,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="76" width="1453" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="81" y="76" width="1312" height="878" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007072" side_tool="true" weight="0.3727399" />
@@ -491,7 +467,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32853404" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1856839" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20629922" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -810,8 +786,8 @@
     <entry file="file://$PROJECT_DIR$/sql/bytedesk_data.sql" />
     <entry file="file://$PROJECT_DIR$/sql/xiaper_mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1906">
-          <caret line="5498" column="25" selection-start-line="5498" selection-start-column="9" selection-end-line="5498" selection-end-column="25" />
+        <state relative-caret-position="347">
+          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
           <folding>
             <element signature="e#55349#106564#0" />
             <element signature="e#106566#157776#0" />
