@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="" />
+    <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-rest-im/target/" />
@@ -79,7 +81,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2636">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -141,8 +153,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/sql/bytedesk_data.sql" />
-        <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" />
         <option value="$PROJECT_DIR$/sql/xiaper_mysql.sql" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" />
       </list>
     </option>
   </component>
@@ -192,7 +204,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="81" />
     <option name="y" value="76" />
     <option name="width" value="1312" />
@@ -206,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,9 +312,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,11 +439,12 @@
       <workItem from="1552129264795" duration="327000" />
       <workItem from="1552130334242" duration="176000" />
       <workItem from="1552130720862" duration="411000" />
+      <workItem from="1552221921424" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19624000" />
+    <option name="totallyTimeSpent" value="19637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +456,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="76" width="1312" height="878" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007072" side_tool="true" weight="0.3727399" />
@@ -467,7 +481,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32853404" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20629922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -775,27 +789,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/bytedesk_table.sql" />
     <entry file="file://$PROJECT_DIR$/sql/bytedesk_data.sql" />
     <entry file="file://$PROJECT_DIR$/sql/xiaper_mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <element signature="e#55349#106564#0" />
-            <element signature="e#106566#157776#0" />
-            <element signature="e#157778#208941#0" />
-            <element signature="e#208943#260112#0" />
-            <element signature="e#260114#311339#0" />
-            <element signature="e#311341#331050#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2636">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
