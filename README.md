@@ -21,12 +21,14 @@ based on it.
 | [android] | TO BE RELEASED | Android |
 | [ios] | TO BE RELEASED | iOS |
 | [web/h5] | TO BE RELEASED | Web/Html5 |
+| [windows/mac] | TO BE RELEASED | Windows/Mac |
 | [wechat] | TO BE RELEASED | Wechat mini program |
 
 [server]: https://github.com/xiaper/server
 [android]: https://github.com/xiaper/android
 [ios]: https://github.com/xiaper/ios
 [web/h5]: https://github.com/xiaper/web
+[windows/mac]: https://github.com/xiaper/pc
 [miniprogram]: https://github.com/xiaper/miniprogram
 
 ## Documentation
@@ -59,6 +61,3 @@ Thank you to all the people who already contributed to Xiaper!
 [MIT](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2013-present, JinPeng(Jack) Ning, 270580156@qq.com
-
-
-  
