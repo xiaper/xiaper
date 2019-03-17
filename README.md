@@ -9,7 +9,7 @@
 <p align="center"></p>
 
 [Xiaper](http://www.xiaper.io) is a full stack enterprise open source IM solution which includes both Server and Client Libraries.
-The Server is developed based on Spring Boot which support Clustering and Spring Cloud。Client Library Includes: Android、iOS、Web/Html5 and Wechat Miniprogram.
+The Server is developed based on Spring Boot which support Clustering and Spring Cloud。Client Library Includes: Android、iOS、Web/Html5、Windows、Mac and Wechat Miniprogram.
 You can develop chat apps like Whatsapp, Wechat and Facebook Messager based on it, And you can also develop helpdesk system like Zendesk
 based on it.
 
