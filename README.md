@@ -22,7 +22,7 @@ based on it.
 | [ios] | TO BE RELEASED | iOS |
 | [web/h5] | TO BE RELEASED | Web/Html5 |
 | [windows/mac] | TO BE RELEASED | Windows/Mac |
-| [wechat] | TO BE RELEASED | Wechat mini program |
+| [miniprogram] | TO BE RELEASED | Wechat mini program |
 
 [server]: https://github.com/xiaper/server
 [android]: https://github.com/xiaper/android

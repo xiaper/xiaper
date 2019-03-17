@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/target/" />
@@ -81,12 +82,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2636">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="164">
+              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -204,11 +205,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="81" />
-    <option name="y" value="76" />
-    <option name="width" value="1312" />
-    <option name="height" value="878" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="19" />
+    <option name="y" value="23" />
+    <option name="width" value="1254" />
+    <option name="height" value="809" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,8 +312,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,11 +441,12 @@
       <workItem from="1552130334242" duration="176000" />
       <workItem from="1552130720862" duration="411000" />
       <workItem from="1552221921424" duration="13000" />
+      <workItem from="1552787368629" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19637000" />
+    <option name="totallyTimeSpent" value="19655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +458,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="19" y="23" width="1254" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -481,7 +483,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32853404" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28547856" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -800,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2636">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="164">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>
