@@ -21,6 +21,8 @@
 	<modules>
 
 		<module>xiaper-spring-boot-sample-webmvc</module>
+		<module>xiaper-spring-boot-sample-webmvc-activemq</module>
+		<module>xiaper-spring-boot-sample-webmvc-war</module>
 
 	</modules>
 

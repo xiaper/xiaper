@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+
+    <div th:replace="fragments/header :: header-meta"/>
+
+    <div th:replace="fragments/header :: header-css"/>
+
+    <title>类别 - <span th:utext="#{title}" th:remove="tag"></span> · <span th:utext="#{slogan}" th:remove="tag"></span></title>
+
+</head>
+<body>
+
+    <div id="app">
+
+        <div id="header">
+            <div th:replace="fragments/header :: header-light"/>
+        </div>
+
+        <main class="container" style="margin-top: 100px; margin-bottom: 100px; min-height: 1000px;">
+
+            <div class="row">
+                <div class="col-md-5">
+                    <el-breadcrumb separator-class="el-icon-arrow-right" style="padding-top: 13px">
+                        <el-breadcrumb-item>
+                            <a :href="formatSupportUrl()" target="_blank">帮助中心</a>
+                        </el-breadcrumb-item>
+                        <el-breadcrumb-item>
+                            <span>{{ category.name }}</span>
+                        </el-breadcrumb-item>
+                    </el-breadcrumb>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-3">
+                    <el-input placeholder="请输入内容" v-model="searchContent" clearable>
+                        <el-button slot="append" icon="el-icon-search" @click="handleSearch()"></el-button>
+                    </el-input>
+                </div>
+            </div>
+
+            <div style="margin-top: 80px; text-align: center;">
+                <div class="row" style="margin-bottom: 10px; height: 40px;" v-for="i in Math.ceil(articles.length / 2)">
+                    <div class="col-md-6" v-for="article in articles.slice((i - 1) * 2, i * 2)">
+                        <a :href="formatArticleUrl(article.aid)" target="_blank">{{ article.title }}</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <div th:replace="fragments/footer :: footer-div"/>
+
+    <div th:replace="fragments/footer :: footer-js"/>
+
+    <div th:replace="fragments/footer :: footer-chat"/>
+
+    <script type="text/javascript">
+        // axios.defaults.baseURL = "/visitor/api/";
+        var app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    uid: "",
+                    cid: "",
+                    /**
+                     *
+                     */
+                    username: '',
+                    password: '',
+                    // 本地存储access_token的key
+                    token: 'token',
+                    passport: {
+                        token: {
+                            access_token: '',
+                            expires_in: 0,
+                            jti: '',
+                            refresh_token: '',
+                            scope: '',
+                            token_type: ''
+                        }
+                    },
+                    userId: '',
+                    subDomain: '',
+                    client: 'web',
+                    /**
+                     *
+                     */
+                    category: {
+                        cid: '',
+                        name: '',
+                        type: '',
+                        children: [],
+                        articles: []
+                    },
+                    articles: [],
+                    searchContent: ""
+                }
+            },
+            methods: {
+                getUrlParam(name) {
+                    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+                    var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+                    if (r != null) return decodeURIComponent(r[2]);
+                    return null; //返回参数值
+                },
+                handleSearch() {
+                    window.open("/support/search?uid=" + this.uid + "&content=" + this.searchContent);
+                },
+                formatSupportUrl() {
+                    return "/support?uid=" + this.uid;
+                },
+                formatArticleUrl(aid) {
+                    return "/support/article?uid="+this.uid+"&aid=" + aid;
+                },
+                /**
+                 * 工具函数
+                 */
+                initAxios() {
+                    // http response 拦截器
+                    axios.interceptors.response.use(
+                        response => {
+                            return response
+                        },
+                        error => {
+                            if (error.response) {
+                                switch (error.response.status) {
+                                    case 401:
+                                        console.log('axios interception error 401');
+                                    case 403:
+                                        // 401 清除token信息并登录
+                                        // 403 无权限，跳转到首页
+                                        console.log('axios interception error 403');
+                                        localStorage.removeItem(app.token);
+                                        if (app.username !== undefined
+                                            && app.username !== null
+                                            && app.username !== '') {
+                                            app.login()
+                                        } else {
+                                            app.requestUsername();
+                                        }
+                                }
+                            }
+                            return 'return axios interception error'
+                        })
+                },
+                /**
+                 * 1. 首先判断是否已经注册过
+                 * 2. 如果已经注册过，则直接调用登录接口
+                 * 3. 如果没有注册过，则从服务器请求用户名
+                 *
+                 * FIXME: 暂未考虑浏览器不支持localStorage的情况
+                 */
+                requestUsername () {
+                    this.username = localStorage.username;
+                    if (this.username) {
+                        this.password = this.username;
+                        this.login();
+                    } else {
+                        //
+                        axios.get('/visitor/api/username', {
+                            params: {
+                                'subDomain': this.subDomain,
+                                'client': this.client
+                            }
+                        }).then(response => {
+                            console.log('username:', response.data);
+
+                            // 登录
+                            app.username = response.data.data.username;
+                            app.password = app.username;
+
+                            // 本地存储
+                            localStorage.uid = app.uid;
+                            localStorage.username = app.username;
+
+                            // 登录
+                            app.login();
+
+                        }).catch(error => {
+                            console.log(error)
+                        });
+                    }
+                },
+                /**
+                 * 2. oauth2登录
+                 */
+                login () {
+                    axios({
+                        method: 'post',
+                        url: '/oauth/token',
+                        params: {
+                            'username': this.username,
+                            'password': this.password,
+                            'grant_type': 'password',
+                            'scope': 'all'
+                        },
+                        auth: {
+                            username: 'client',
+                            password: 'secret'
+                        }
+                    }).then(function (response) {
+                        console.log('login success: ',response.data);
+                        // 本地存储，
+                        app.passport.token = response.data;
+                        // localStorage 存储
+                        localStorage.setItem(app.token, JSON.stringify(response.data));
+                        // 请求
+                        app.getCategory()
+                    }).catch(function (error) {
+                        console.log(error)
+                    })
+                },
+                getCategory() {
+                    axios.get('/api/category/detail?access_token=' + this.passport.token.access_token, {
+                        params:{
+                            "cid": this.cid,
+                        }
+                    })
+                    .then(function (response) {
+                        console.log("fetch category success:", response.data);
+
+                        app.category = response.data.data.category;
+                        app.articles = response.data.data.articles;
+                    })
+                    .catch(function (error) {
+                        console.log("fetch category error:",error);
+                    });
+                }
+            },
+            created() {
+                // console.log(('created'));
+                this.uid = this.getUrlParam("uid");
+                this.cid = this.getUrlParam("cid");
+                //
+                this.username = localStorage.username;
+                this.password = this.username;
+                var tokenLocal = localStorage.getItem(this.token);
+                if (tokenLocal != 'undefined') {
+                    this.passport.token = JSON.parse(tokenLocal);
+                }
+            },
+            mounted() {
+                // console.log(('mounted'));
+                this.initAxios();
+
+                if (this.username !== null
+                    && this.username !== undefined
+                    && this.username !== '') {
+                    this.login()
+                } else {
+                    this.requestUsername();
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>

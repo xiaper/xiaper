@@ -1,0 +1,446 @@
+
+/*#byteDesk-start {*/
+    /*border-radius:5px;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+    /*position: fixed;*/
+    /*bottom: 70px;*/
+    /*right: 40px;*/
+    /*background-color: #007bff;*/
+    /*color: white;*/
+    /*!*圆形*!*/
+    /*width: 60px;*/
+    /*height: 60px;*/
+    /*border-radius: 30px;*/
+    /*z-index: 10000;*/
+/*}*/
+
+.byteDesk-start-normal {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    z-index: 10000;
+}
+
+.byteDesk-start-normal-div {
+    margin-top: 12px;
+}
+
+.byteDesk-start-normal-icon {
+    font-size: 25px !important;
+}
+
+.byteDesk-start-medium {
+    border-radius:5px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    z-index: 10000;
+}
+
+.byteDesk-start-medium-div {
+    margin-top: 10px;
+}
+
+.byteDesk-start-medium-icon {
+    font-size: 22px !important;
+}
+
+.byteDesk-start-small {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    z-index: 10000;
+}
+
+.byteDesk-start-small-div {
+    margin-top: 10px;
+}
+
+.byteDesk-start-small-icon {
+    font-size: 15px !important;
+}
+
+.byteDesk-start-mini {
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    /*圆形*/
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    z-index: 10000;
+}
+
+.byteDesk-start-mini-div {
+    margin-top: 1px;
+}
+
+.byteDesk-start-mini-icon {
+    font-size: 3px !important;
+}
+
+#byteDesk-app-wrapper{
+    z-index: 10000;
+}
+
+#byteDesk-app {
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    width: 600px;
+    height: 500px;
+    color: white;
+    border: 1px solid #e4e7ed;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #888888;
+    z-index: 100;
+}
+
+#byteDesk-title {
+    font-size: 15px;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+    margin-left: 0px;
+    background-color: #007bff;
+}
+
+#byteDesk-name {
+    cursor: pointer;
+    text-align:left;
+    padding-left: 10px;
+    float: left;
+    width: 160px;
+    height: 100%;
+}
+
+#byteDesk-buttons{
+    width: 250px;
+    float: left;
+    margin-left: 20px;
+}
+
+#byteDesk-close {
+    text-align: right;
+    padding-right: 25px;
+    float: right;
+}
+
+#byteDesk-main {
+    background-color: white;
+    height: 100%;
+    width: 75%;
+    margin-right: -15px;
+    float: left;
+}
+
+#byteDesk-message-pc {
+    padding-right: 0px;
+    height: 65%;
+    overflow-y: scroll;
+    border: 0px;
+    background-color: white;
+}
+
+#byteDesk-leave {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-right: -15px;
+    color: black;
+}
+
+#byteDesk-input-pc{
+    height: 120px;
+    min-height: 50px;
+    background-color: ivory;
+    overflow-y: scroll;
+}
+
+.el-textarea {
+    width: 94%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.byteDesk-input-pc-buttons {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.byteDesk-input-emoji {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+.byteDesk-message-clear {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+.byteDesk-message-rate {
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+    color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+.byteDesk-input-emoji-box {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: -305px;
+    width: 300px;
+    height: 300px;
+    padding: 3px 6px 6px 14px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    box-shadow:0 1px 2px 1px #d1d1d1;
+}
+
+.byteDesk-input-emoji-box li {
+    list-style: none;
+    width: 24px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+.byteDesk-input-emoji-box.showbox-enter-active, .byteDesk-input-emoji-box.showbox-leave-active {
+    transition: all .5s;
+}
+
+.byteDesk-input-emoji-box.showbox-enter, .byteDesk-input-emoji-box.showbox-leave-active {
+    opacity: 0;
+}
+
+.byteDesk-upload-image {
+    width: 16px;
+    height: 43px;
+    font-size: 25px;
+    color: gray;
+    margin-left: 20px;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+
+.el-upload__input{
+    display: none !important;
+}
+
+#byteDesk-input-textarea{
+    width: 95%;
+}
+
+#byteDesk-input-pc-send {
+    position: absolute;
+    bottom: 35px;
+    right: 200px;
+}
+
+.byteDesk-pullrefresh {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.byteDesk-message-ul {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.byteDesk-message-ul li {
+    margin-bottom: 15px;
+    clear: both;
+}
+
+.byteDesk-timestamp {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.byteDesk-timestamp span {
+    display: inline-block;
+    padding: 0 8px;
+    color: #fff;
+    border-radius: 5px;
+    color: #bbbbbb;
+}
+
+.byteDesk-avatar {
+    float: left;
+    margin: 0 10px 0 5px;
+    border-radius: 3px;
+}
+
+.byteDesk-nickname {
+    text-align: left;
+    font-size: 10px;
+    color: black;
+}
+
+.byteDesk-text {
+    float: left;
+    color: black;
+    position: relative;
+    padding: 5px 10px 8px;
+    max-width: calc(100% - 150px);
+    min-height: 30px;
+    line-height: 2.5;
+    font-size: 12px;
+    text-align: left;
+    word-break: break-all;
+    background-color: #dddddd;
+    border-radius: 4px;
+}
+
+.byteDesk-text:before {
+    content: " ";
+    position: absolute;
+    top: 9px;
+    right: 100%;
+    border: 6px solid transparent;
+    border-right-color: #dddddd;
+}
+
+.self {
+    text-align: right;
+}
+
+.self .byteDesk-avatar {
+    float: right;
+    margin: 0 15px 0 10px;
+}
+
+.self .byteDesk-text {
+    float: right;
+    background-color: #b2e281;
+}
+
+.self .byteDesk-text:before {
+    right: inherit;
+    left: 100%;
+    border-right-color: transparent;
+    border-left-color: #b2e281;
+}
+
+.self .status {
+    float: right;
+    margin-right: 8px;
+}
+
+.notification {
+    text-align: center;
+}
+
+#byteDesk-faq{
+    color: black;
+}
+
+.byteDesk-question {
+    cursor: pointer;
+    font-size: 10px;
+    color: gray;
+    margin-left: 25px;
+    height: 16px;
+    text-align: left;
+    overflow: hidden;
+}
+
+#byteDesk-logo{
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3px;
+    width: 100%;
+}
+
+#byteDesk-logo a {
+    color: gray;
+}
+
+#byteDesk-right {
+    text-align: center;
+    background-color: white;
+    height: 83%;
+    width: 25%;
+    float: left;
+    margin-left: 15px;
+}
+
+#byteDesk-split {
+    height: 100%;
+    width: 1px;
+    background-color: #e4e7ed;
+    float: left;
+}
+
+#byteDesk-connected {
+    position: fixed;
+    bottom: 5px;
+    width: 100px;
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+#byteDesk-connected-image {
+    float: left;
+    margin-left: 30px;
+    height: 15px;
+    width: 15px;
+}
+

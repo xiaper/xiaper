@@ -13,6 +13,8 @@
         <module name="xiaper-spring-boot-sample-schedule" />
         <module name="xiaper-spring-boot-sample-webflux" />
         <module name="xiaper-spring-boot-sample-webmvc" />
+        <module name="xiaper-spring-boot-sample-webmvc-activemq" />
+        <module name="xiaper-spring-boot-sample-webmvc-war" />
         <module name="xiaper-spring-boot-starter" />
         <module name="xiaper-spring-boot-starter-im" />
         <module name="xiaper-spring-boot-starter-kefu" />
@@ -43,6 +45,8 @@
       <module name="xiaper-spring-boot-sample-schedule" target="1.8" />
       <module name="xiaper-spring-boot-sample-webflux" target="1.8" />
       <module name="xiaper-spring-boot-sample-webmvc" target="1.8" />
+      <module name="xiaper-spring-boot-sample-webmvc-activemq" target="1.8" />
+      <module name="xiaper-spring-boot-sample-webmvc-war" target="1.8" />
       <module name="xiaper-spring-boot-samples" target="1.5" />
       <module name="xiaper-spring-boot-schedule" target="1.8" />
       <module name="xiaper-spring-boot-security" target="1.8" />

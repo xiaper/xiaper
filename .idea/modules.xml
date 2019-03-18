@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/xiaper-spring-boot-sample-webmvc.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/xiaper-spring-boot-sample-webmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/xiaper-spring-boot-sample-webmvc-activemq.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/xiaper-spring-boot-sample-webmvc-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/xiaper-spring-boot-sample-webmvc-war.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/xiaper-spring-boot-sample-webmvc-war.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-samples.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/xiaper-spring-boot-starter-im.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/xiaper-spring-boot-starter-im.iml" />
