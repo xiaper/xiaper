@@ -18,11 +18,11 @@ based on it.
 | Project | Status | Description |
 |---------|--------|-------------|
 | [server] | 2.1.4.RELEASE | Server |
-| [android] | TO BE RELEASED | Android |
-| [ios] | TO BE RELEASED | iOS |
-| [web/h5] | TO BE RELEASED | Web/Html5 |
+| [android] | 2.0.2 | Android |
+| [ios] | 1.6.8 | iOS |
+| [web/h5] | 2.0.0 | Web/Html5 |
 | [windows/mac] | TO BE RELEASED | Windows/Mac |
-| [miniprogram] | TO BE RELEASED | Wechat mini program |
+| [miniprogram] | 2.0.0 | Wechat mini program |
 
 [server]: https://github.com/xiaper/server
 [android]: https://github.com/xiaper/android
