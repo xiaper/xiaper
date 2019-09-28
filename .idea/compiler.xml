@@ -6,23 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xiaper-spring-boot-kefu" />
         <module name="xiaper-spring-boot-autoconfigure" />
-        <module name="xiaper-spring-boot-sample-client" />
-        <module name="xiaper-spring-boot-sample-rest-im" />
-        <module name="xiaper-spring-boot-sample-rest-kefu" />
-        <module name="xiaper-spring-boot-sample-schedule" />
-        <module name="xiaper-spring-boot-sample-webflux" />
-        <module name="xiaper-spring-boot-sample-webmvc" />
-        <module name="xiaper-spring-boot-sample-webmvc-activemq" />
-        <module name="xiaper-spring-boot-sample-webmvc-war" />
-        <module name="xiaper-spring-boot-starter" />
-        <module name="xiaper-spring-boot-starter-im" />
-        <module name="xiaper-spring-boot-starter-kefu" />
-        <module name="xiaper-spring-boot-starter-rest-im" />
-        <module name="xiaper-spring-boot-starter-rest-kefu" />
-        <module name="xiaper-spring-cloud-config" />
         <module name="xiaper-spring-cloud-eureka" />
+        <module name="xiaper-spring-boot-sample-rest-im" />
         <module name="xiaper-spring-cloud-sample-webmvc" />
+        <module name="xiaper-spring-boot-im" />
+        <module name="xiaper-spring-boot-starter-rest-kefu" />
+        <module name="xiaper-spring-boot-sample-webflux" />
+        <module name="xiaper-spring-boot-sample-schedule" />
+        <module name="xiaper-spring-boot-starter-rest-im" />
+        <module name="xiaper-spring-boot-sample-rest-kefu" />
+        <module name="xiaper-spring-boot-sample-client" />
+        <module name="xiaper-spring-cloud-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +27,8 @@
       <module name="xiaper-spring-boot-core" target="1.8" />
       <module name="xiaper-spring-boot-data-jpa" target="1.8" />
       <module name="xiaper-spring-boot-data-redis" target="1.8" />
+      <module name="xiaper-spring-boot-im" target="1.8" />
+      <module name="xiaper-spring-boot-kefu" target="1.8" />
       <module name="xiaper-spring-boot-mysql" target="1.8" />
       <module name="xiaper-spring-boot-push" target="1.8" />
       <module name="xiaper-spring-boot-rest" target="1.8" />
@@ -44,7 +42,6 @@
       <module name="xiaper-spring-boot-sample-rest-kefu" target="1.8" />
       <module name="xiaper-spring-boot-sample-schedule" target="1.8" />
       <module name="xiaper-spring-boot-sample-webflux" target="1.8" />
-      <module name="xiaper-spring-boot-sample-webmvc" target="1.8" />
       <module name="xiaper-spring-boot-sample-webmvc-activemq" target="1.8" />
       <module name="xiaper-spring-boot-sample-webmvc-war" target="1.8" />
       <module name="xiaper-spring-boot-samples" target="1.5" />
@@ -64,6 +61,7 @@
       <module name="xiaper-spring-boot-web-community" target="1.8" />
       <module name="xiaper-spring-boot-web-im" target="1.8" />
       <module name="xiaper-spring-boot-web-kefu" target="1.8" />
+      <module name="xiaper-spring-boot-webmvc" target="1.8" />
       <module name="xiaper-spring-boot-website" target="1.8" />
       <module name="xiaper-spring-boot-wechat" target="1.8" />
       <module name="xiaper-spring-cloud" target="1.5" />
@@ -72,5 +70,15 @@
       <module name="xiaper-spring-cloud-sample-webmvc" target="1.8" />
       <module name="xiaper.io-server" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xiaper-spring-boot-im" options="-parameters" />
+      <module name="xiaper-spring-boot-kefu" options="-parameters" />
+      <module name="xiaper-spring-boot-starter" options="-parameters" />
+      <module name="xiaper-spring-boot-starter-im" options="-parameters" />
+      <module name="xiaper-spring-boot-starter-kefu" options="-parameters" />
+      <module name="xiaper-spring-boot-webmvc" options="-parameters" />
+    </option>
   </component>
 </project>

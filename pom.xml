@@ -19,8 +19,8 @@
 	</properties>
 
 	<modules>
-        <module>xiaper-spring-boot</module>
-		<module>xiaper-spring-cloud</module>
+        <module>xiaper-spring-boot-im</module>
+		<module>xiaper-spring-boot-kefu</module>
 	</modules>
 
 </project>

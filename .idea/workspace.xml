@@ -2,58 +2,736 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e738e6-224f-43fb-b37f-1072560e72ad" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/xiaper_spring_boot_sample_webmvc_war_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/xiaper_spring_boot_sample_webmvc_war_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_autoconfigure_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_core_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_data_jpa_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_im_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_kefu_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_wechat_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_router_activemq_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_router_rabbitmq_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_schedule_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_service_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_service_activemq_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_service_rabbitmq_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_im_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_kefu_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_web_common_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_web_im_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_web_kefu_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_wechat_2_1_5_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_javax_jms_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_15_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_15_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_15_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_15_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_32_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_autoconfigure_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_autoconfigure_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_core_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_core_2_1_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_core_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_data_jpa_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_im_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_kefu_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_rest_wechat_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_router_activemq_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_router_rabbitmq_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_schedule_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_service_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_service_activemq_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_service_rabbitmq_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_im_2_1_5_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_im_2_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_kefu_2_1_5_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_starter_kefu_2_1_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_web_common_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_web_im_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_web_kefu_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_xiaper_xiaper_spring_boot_wechat_2_1_5_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_javax_jms_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_broker_5_15_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_client_5_15_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_jms_pool_5_15_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_openwire_legacy_5_15_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_pool_5_15_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_0_1B_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_0_10_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/asciidoc/annotation.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/asciidoc/api.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/asciidoc/getting-started.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/asciidoc/index.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/asciidoc/introduction.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/java/com/xiaper/webmvc/ClusterWebMvcActiveMqApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/java/com/xiaper/webmvc/config/AuthorizationServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/java/com/xiaper/webmvc/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/java/com/xiaper/webmvc/config/SimpleCorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/java/com/xiaper/webmvc/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/java/com/xiaper/webmvc/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/i18n/messages_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/chatvue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/float.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/jq/kefu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/css/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/axios/0.18.0/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/bootstrap/4.1.1/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/elementui/2.4.0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/fingerprintjs2/1.8.0/fingerprint2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/jquery/3.3.1/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/chatlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/getmsg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/msgbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/mobile/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/voice/default.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/layim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/dist/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/laydate/default/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/mobile/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/css/modules/layim/voice/default.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/all-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/layim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/layer-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/layim-mobile-open.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/layim-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/upload-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/layui/src/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/moment/2.22.1/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/sockjs/1.1.4/sockjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/stomp/1.2/stomp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/uaparser/0.7.18/ua-parser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/verto/jquery.FSRTC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/verto/jquery.jsonrpcclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/verto/jquery.verto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/verto/vendor/adapter-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/vue/2.5.16/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/static/js/vendor/webrtc/adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/email/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/email/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/email/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/error/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/support/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/support/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/support/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/support/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/visitor/chatjq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/visitor/chatvue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/templates/visitor/webSocket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/test/java/com/xiaper/webmvc/ApiDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/test/java/com/xiaper/webmvc/GettingStartedDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/asciidoc/annotation.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/asciidoc/api.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/asciidoc/getting-started.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/asciidoc/index.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/asciidoc/introduction.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/java/com/xiaper/webmvc/ClusterWebMvcWarApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/java/com/xiaper/webmvc/config/AuthorizationServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/java/com/xiaper/webmvc/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/java/com/xiaper/webmvc/config/SimpleCorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/java/com/xiaper/webmvc/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/java/com/xiaper/webmvc/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/i18n/messages_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/chatvue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/float.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/jq/kefu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/css/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/axios/0.18.0/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/bootstrap/4.1.1/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/elementui/2.4.0/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/fingerprintjs2/1.8.0/fingerprint2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/jquery/3.3.1/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/chatlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/getmsg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/html/msgbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/mobile/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/skin/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/css/modules/layim/voice/default.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/layim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/dist/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/laydate/default/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/mobile/layim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/skin/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/css/modules/layim/voice/default.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/all-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/layim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/layer-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/layim-mobile-open.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/layim-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/upload-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/mobile/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/layui/src/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/moment/2.22.1/moment.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/sockjs/1.1.4/sockjs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/stomp/1.2/stomp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/uaparser/0.7.18/ua-parser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/verto/jquery.FSRTC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/verto/jquery.jsonrpcclient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/verto/jquery.verto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/verto/vendor/adapter-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/vue/2.5.16/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/static/js/vendor/webrtc/adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/email/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/email/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/email/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/error/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/support/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/support/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/support/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/support/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/visitor/chatjq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/visitor/chatvue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/templates/visitor/webSocket.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/test/java/com/xiaper/webmvc/ApiDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/test/java/com/xiaper/webmvc/GettingStartedDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/Dockerfile-all-in-one" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/annotation.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/api.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/getting-started.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/index.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/asciidoc/introduction.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/ClusterWebMvcApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/AuthorizationServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/SimpleCorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/i18n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/i18n/messages_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/i18n/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/error/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/error/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/error/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/test/java/com/xiaper/webmvc/ApiDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/test/java/com/xiaper/webmvc/GettingStartedDocumentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/xiaper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/readme.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/xiaper-spring-boot-schedule/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot/target/" />
@@ -112,12 +790,19 @@
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot-starters/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/target/" />
     <ignored path="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-sample-webmvc/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-im/target/" />
+    <ignored path="$PROJECT_DIR$/xiaper-spring-boot-kefu/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -133,18 +818,12 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-355">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -167,22 +846,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../../Java/gs-accessing-data-mysql/complete" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/gs-rest-service/complete" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/gs-spring-boot/complete" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/kefudashi" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/kefudashi-old" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/realtime-messaging-master" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/spring-restdocs" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/spring-session" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../Java/springboot-mqtt-demo" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/demo" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -207,25 +870,24 @@
         <option value="$PROJECT_DIR$/sql/bytedesk_data.sql" />
         <option value="$PROJECT_DIR$/sql/xiaper_mysql.sql" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml" />
-        <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/src/main/resources/application-prod.properties" />
         <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/XiaperWebMvcApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-kefu/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-im/pom.xml" />
+        <option value="$PROJECT_DIR$/xiaper-spring-boot-im/src/main/java/com/xiaper/webmvc/XiaperIMApplication.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -258,10 +920,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="112" />
     <option name="y" value="134" />
     <option name="width" value="1380" />
@@ -276,7 +935,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,17 +942,6 @@
             <path>
               <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaper.io-server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaper.io-server" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-samples" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaper-spring-boot-sample-webmvc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,14 +955,17 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -336,63 +986,50 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ClusterWebMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xiaper-spring-boot-sample-webmvc" />
+    <configuration name="XiaperIMApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xiaper-spring-boot-im" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.xiaper.webmvc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webmvc.ClusterWebMvcApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xiaper.webmvc.XiaperIMApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ClusterWebMvcApplication" />
+        <item itemvalue="Spring Boot.XiaperIMApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -429,11 +1066,12 @@
       <workItem from="1552787368629" duration="18000" />
       <workItem from="1552787473416" duration="23000" />
       <workItem from="1552871303238" duration="152000" />
+      <workItem from="1569634692743" duration="855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19830000" />
+    <option name="totallyTimeSpent" value="20685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,159 +1083,57 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="112" y="134" width="1380" height="813" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007072" side_tool="true" weight="0.3727399" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.29420084" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.24602203" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32984293" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992928" weight="0.3364116" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32984293" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32853404" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3213752" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" order="3" />
-      <window_info id="Learn" order="2" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="LuaCheck" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992928" weight="0.3364116" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.24602203" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32984293" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32853404" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007072" side_tool="true" weight="0.3727399" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32984293" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32984293" />
+      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.29420084" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/ClusterWebMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="900">
-            <caret line="60" column="2" lean-forward="true" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/ClusterWebMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/java/com/xiaper/webmvc/ClusterWebMvcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-starters/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-server.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -650,9 +1186,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/readme-zh.md" />
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -709,29 +1242,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="80">
-            <caret line="14" selection-start-line="14" selection-end-line="26" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/bytedesk_table.sql" />
     <entry file="file://$PROJECT_DIR$/sql/bytedesk_data.sql" />
     <entry file="file://$PROJECT_DIR$/sql/xiaper_mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -789,8 +1305,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="315">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-samples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-webmvc/src/main/java/com/xiaper/webmvc/XiaperWebMvcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-sample-webmvc/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3958" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-webmvc/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-webmvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-kefu/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1733">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-im/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3105">
+          <caret line="207" column="8" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="127">
+            <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-im/src/main/java/com/xiaper/webmvc/XiaperIMApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-kefu/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-kefu/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-kefu/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xiaper-spring-boot-kefu/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>

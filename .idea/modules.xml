@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/xiaper-spring-boot-sample-webmvc.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc/xiaper-spring-boot-sample-webmvc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/xiaper-spring-boot-sample-webmvc-activemq.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-activemq/xiaper-spring-boot-sample-webmvc-activemq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/xiaper-spring-boot-sample-webmvc-war.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/xiaper-spring-boot-sample-webmvc-war.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-samples.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-samples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter/xiaper-spring-boot-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/xiaper-spring-boot-starter-im.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-im/xiaper-spring-boot-starter-im.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/xiaper-spring-boot-starter-kefu.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starter-kefu/xiaper-spring-boot-starter-kefu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starters.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-starters/xiaper-spring-boot-starters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-im/xiaper-spring-boot-im.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-im/xiaper-spring-boot-im.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaper-spring-boot-kefu/xiaper-spring-boot-kefu.iml" filepath="$PROJECT_DIR$/xiaper-spring-boot-kefu/xiaper-spring-boot-kefu.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xiaper.io-server.iml" filepath="$PROJECT_DIR$/.idea/xiaper.io-server.iml" />
     </modules>
   </component>
