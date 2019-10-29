@@ -163,7 +163,7 @@
 		<dependency>
 			<groupId>io.projectreactor.netty</groupId>
 			<artifactId>reactor-netty</artifactId>
-			<version>0.8.4.RELEASE</version>
+			<version>0.8.12.RELEASE</version>
 		</dependency>
 
 		<!-- 上传图片到阿里云OSS -->
