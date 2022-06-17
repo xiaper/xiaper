@@ -184,7 +184,7 @@
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.46</version>
+			<version>1.2.83</version>
 		</dependency>
 
 		<!--第三方包中使用jedis, 暂且先使用此包，在后面版本替换掉-->
