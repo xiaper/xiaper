@@ -1,6 +1,6 @@
-# Bytedesk
+# Xiaper
 
- Bytedesk is an open source Zendesk/Intercom Alternative
+Xiaper is an open source Enterprise IM solution
 
 ## Getting Started
 
@@ -12,7 +12,7 @@
 ### start up
 
 ```bash
-# Steps to get bytedesk server start up
+# Steps to get xiaper server start up
 
 ```
 
