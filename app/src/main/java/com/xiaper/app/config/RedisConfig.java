@@ -1,4 +1,4 @@
-package com.xiaper.ai.config;
+package com.xiaper.app.config;
 // package com.xiaper.ai.config;
 
 // import org.springframework.beans.factory.annotation.Autowired;
