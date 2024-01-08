@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="xiaper-spring-boot-sample-webmvc-war:war">
-    <output-path>$PROJECT_DIR$/xiaper-spring-boot-samples/xiaper-spring-boot-sample-webmvc-war/target</output-path>
-    <root id="archive" name="xiaper-spring-boot-sample-webmvc-war-2.1.5-SNAPSHOT.war">
-      <element id="artifact" artifact-name="xiaper-spring-boot-sample-webmvc-war:war exploded" />
-    </root>
-  </artifact>
-</component>

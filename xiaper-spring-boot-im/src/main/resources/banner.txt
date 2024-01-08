@@ -1,7 +1,0 @@
-       .__
-___  __|__|____  ______   ___________
-\  \/  /  \__  \ \____ \_/ __ \_  __ \
- >    <|  |/ __ \|  |_> >  ___/|  | \/
-/__/\_ \__(____  /   __/ \___  >__|
-      \/       \/|__|        \/
-${AnsiColor.BRIGHT_YELLOW} :: Based On Spring Boot :: ${spring-boot.formatted-version}
